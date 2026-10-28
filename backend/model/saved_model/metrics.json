@@ -1,0 +1,17 @@
+{
+    "accuracy": 0.9919,
+    "precision": 0.9841,
+    "recall": 1.0,
+    "f1_score": 0.992,
+    "confusion_matrix": [
+        [
+            61,
+            1
+        ],
+        [
+            0,
+            62
+        ]
+    ],
+    "model_type": "TF-IDF + Linear SVM (v3 Augmented)"
+}

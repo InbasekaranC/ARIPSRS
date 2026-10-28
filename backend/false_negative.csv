@@ -1,0 +1,4 @@
+Requirement,Label,Ambiguity_Type,Domain,Source,norm_text,target_id,pred_id,pred_label,prob_ambiguous
+The platform shall store application after the transaction is approved.,Ambiguous,Incomplete Information,General Software,Phase6_Complexity_Expansion,The platform shall store application after the transaction is approved.,1,0,Clear,0.4323640496090392
+The report shall be sent to the head of the department for review.,Ambiguous,Incomplete Information,Student Management,Original,The report shall be sent to the head of the department for review.,1,0,Clear,0.362289557026741
+The system shall assign a role to the new employee.,Ambiguous,Incomplete Information,Payroll,Original,The system shall assign a role to the new employee.,1,0,Clear,0.47110938486056936

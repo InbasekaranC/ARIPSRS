@@ -1,0 +1,9 @@
+{
+    "model_name": "TF-IDF + Gradient Boosting",
+    "confusion_matrix": {
+        "true_negative": 62,
+        "false_positive": 0,
+        "false_negative": 1,
+        "true_positive": 61
+    }
+}

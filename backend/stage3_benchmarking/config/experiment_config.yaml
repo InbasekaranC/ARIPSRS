@@ -1,0 +1,53 @@
+dataset_path: "d:/ARIP/backend/data/processed/final_dataset.csv"
+random_seed: 42
+
+split_configuration:
+  train_ratio: 0.70
+  validation_ratio: 0.15
+  test_ratio: 0.15
+
+training_subsets:
+  - 0.20
+  - 0.40
+  - 0.60
+  - 0.80
+  - 1.00
+
+candidate_models:
+  tfidf_logistic:
+    name: "TF-IDF + Logistic Regression"
+    type: "logistic_regression"
+    params:
+      C: 1.0
+      solver: "liblinear"
+      max_iter: 500
+  tfidf_linear_svm:
+    name: "TF-IDF + Linear SVM"
+    type: "linear_svc"
+    params:
+      C: 1.0
+      max_iter: 1000
+  tfidf_naive_bayes:
+    name: "TF-IDF + Multinomial Naive Bayes"
+    type: "naive_bayes"
+    params:
+      alpha: 0.5
+  tfidf_random_forest:
+    name: "TF-IDF + Random Forest"
+    type: "random_forest"
+    params:
+      n_estimators: 100
+      max_depth: 15
+      random_state: 42
+  tfidf_gradient_boosting:
+    name: "TF-IDF + Gradient Boosting"
+    type: "gradient_boosting"
+    params:
+      n_estimators: 100
+      learning_rate: 0.1
+      random_state: 42
+
+vectorizer_params:
+  ngram_range: [1, 2]
+  max_features: 1500
+  sublinear_tf: true

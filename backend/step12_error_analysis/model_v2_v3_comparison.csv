@@ -1,0 +1,3 @@
+Model_Version,Val_Accuracy,Val_F1,Test_Accuracy,Test_Precision,Test_Recall,Test_F1,False_Positives,False_Negatives
+Baseline Model v2,0.9756,0.976,0.9839,0.9688,1.0,0.9841,2,0
+Retrained Model v3 (Augmented),0.9756,0.976,0.9919,0.9841,1.0,0.992,1,0

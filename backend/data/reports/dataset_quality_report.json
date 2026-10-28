@@ -1,0 +1,28 @@
+{
+    "stage": "Stage 2 Dataset Cleaning & Expansion Pipeline",
+    "timestamp": "2026-08-17 12:14:20",
+    "counts_summary": {
+        "raw_input_rows": 1600,
+        "cleaned_baseline_unique": 347,
+        "synthetic_generated_total": 5500,
+        "synthetic_accepted": 1550,
+        "synthetic_rejected": 4138,
+        "synthetic_acceptance_rate": "28.18%",
+        "final_dataset_total": 822,
+        "final_yes_count": 411,
+        "final_no_count": 411,
+        "class_ratio": "50.0% YES / 50.0% NO"
+    },
+    "quality_and_integrity_metrics": {
+        "exact_duplicate_count": 0,
+        "semantic_duplicate_count": 0,
+        "cross_label_conflicts": 0,
+        "human_review_queue_size": 46,
+        "reproducible_seed": 42
+    },
+    "diversity_metrics": {
+        "domains_covered_count": 21,
+        "phrasing_styles_covered_count": 11
+    },
+    "final_recommendation": "READY FOR TRAINING (STAGE 3)"
+}

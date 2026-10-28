@@ -1,0 +1,285 @@
+{
+    "model_version": "TF-IDF + Linear SVM (v2)",
+    "evaluation_samples": 247,
+    "test_metrics": {
+        "accuracy": 0.9839,
+        "precision": 0.9688,
+        "recall": 1.0,
+        "f1_score": 0.9841,
+        "false_positives": 2,
+        "false_negatives": 0
+    },
+    "worst_category": "Glossary/Reference",
+    "best_category": "Validation",
+    "worst_domain": "Logistics",
+    "category_breakdown": {
+        "API/Interface": {
+            "total_samples": 8,
+            "errors": 0,
+            "accuracy": 1.0,
+            "error_rate": 0.0
+        },
+        "Access Control": {
+            "total_samples": 10,
+            "errors": 0,
+            "accuracy": 1.0,
+            "error_rate": 0.0
+        },
+        "Authentication": {
+            "total_samples": 13,
+            "errors": 0,
+            "accuracy": 1.0,
+            "error_rate": 0.0
+        },
+        "Availability": {
+            "total_samples": 6,
+            "errors": 0,
+            "accuracy": 1.0,
+            "error_rate": 0.0
+        },
+        "Background": {
+            "total_samples": 19,
+            "errors": 0,
+            "accuracy": 1.0,
+            "error_rate": 0.0
+        },
+        "Baseline Pre-Existing": {
+            "total_samples": 52,
+            "errors": 1,
+            "accuracy": 0.9808,
+            "error_rate": 0.0192
+        },
+        "Business Rules": {
+            "total_samples": 23,
+            "errors": 0,
+            "accuracy": 1.0,
+            "error_rate": 0.0
+        },
+        "Figure/Table Caption": {
+            "total_samples": 15,
+            "errors": 0,
+            "accuracy": 1.0,
+            "error_rate": 0.0
+        },
+        "Functional": {
+            "total_samples": 6,
+            "errors": 0,
+            "accuracy": 1.0,
+            "error_rate": 0.0
+        },
+        "Glossary/Reference": {
+            "total_samples": 2,
+            "errors": 1,
+            "accuracy": 0.5,
+            "error_rate": 0.5
+        },
+        "Hard Negatives (Requirement-Like NO)": {
+            "total_samples": 17,
+            "errors": 3,
+            "accuracy": 0.8235,
+            "error_rate": 0.1765
+        },
+        "Implementation/Design Description": {
+            "total_samples": 10,
+            "errors": 0,
+            "accuracy": 1.0,
+            "error_rate": 0.0
+        },
+        "Introduction": {
+            "total_samples": 14,
+            "errors": 0,
+            "accuracy": 1.0,
+            "error_rate": 0.0
+        },
+        "Notification": {
+            "total_samples": 1,
+            "errors": 0,
+            "accuracy": 1.0,
+            "error_rate": 0.0
+        },
+        "Performance": {
+            "total_samples": 14,
+            "errors": 0,
+            "accuracy": 1.0,
+            "error_rate": 0.0
+        },
+        "Reliability": {
+            "total_samples": 3,
+            "errors": 0,
+            "accuracy": 1.0,
+            "error_rate": 0.0
+        },
+        "Reporting": {
+            "total_samples": 2,
+            "errors": 0,
+            "accuracy": 1.0,
+            "error_rate": 0.0
+        },
+        "Section Heading": {
+            "total_samples": 2,
+            "errors": 0,
+            "accuracy": 1.0,
+            "error_rate": 0.0
+        },
+        "Security": {
+            "total_samples": 15,
+            "errors": 0,
+            "accuracy": 1.0,
+            "error_rate": 0.0
+        },
+        "System Overview": {
+            "total_samples": 8,
+            "errors": 0,
+            "accuracy": 1.0,
+            "error_rate": 0.0
+        },
+        "Usability": {
+            "total_samples": 2,
+            "errors": 0,
+            "accuracy": 1.0,
+            "error_rate": 0.0
+        },
+        "Validation": {
+            "total_samples": 5,
+            "errors": 0,
+            "accuracy": 1.0,
+            "error_rate": 0.0
+        }
+    },
+    "domain_breakdown": {
+        "Banking": {
+            "total_samples": 8,
+            "errors": 0,
+            "accuracy": 1.0,
+            "error_rate": 0.0
+        },
+        "Cloud Applications": {
+            "total_samples": 11,
+            "errors": 0,
+            "accuracy": 1.0,
+            "error_rate": 0.0
+        },
+        "Cybersecurity": {
+            "total_samples": 10,
+            "errors": 0,
+            "accuracy": 1.0,
+            "error_rate": 0.0
+        },
+        "E-Commerce": {
+            "total_samples": 12,
+            "errors": 1,
+            "accuracy": 0.9167,
+            "error_rate": 0.0833
+        },
+        "Education": {
+            "total_samples": 12,
+            "errors": 0,
+            "accuracy": 1.0,
+            "error_rate": 0.0
+        },
+        "Finance": {
+            "total_samples": 8,
+            "errors": 0,
+            "accuracy": 1.0,
+            "error_rate": 0.0
+        },
+        "General Software": {
+            "total_samples": 52,
+            "errors": 1,
+            "accuracy": 0.9808,
+            "error_rate": 0.0192
+        },
+        "Government": {
+            "total_samples": 13,
+            "errors": 1,
+            "accuracy": 0.9231,
+            "error_rate": 0.0769
+        },
+        "HR Systems": {
+            "total_samples": 8,
+            "errors": 0,
+            "accuracy": 1.0,
+            "error_rate": 0.0
+        },
+        "Healthcare": {
+            "total_samples": 8,
+            "errors": 0,
+            "accuracy": 1.0,
+            "error_rate": 0.0
+        },
+        "Hospital Management": {
+            "total_samples": 9,
+            "errors": 0,
+            "accuracy": 1.0,
+            "error_rate": 0.0
+        },
+        "Hotel Management": {
+            "total_samples": 6,
+            "errors": 0,
+            "accuracy": 1.0,
+            "error_rate": 0.0
+        },
+        "Insurance": {
+            "total_samples": 10,
+            "errors": 0,
+            "accuracy": 1.0,
+            "error_rate": 0.0
+        },
+        "Inventory Systems": {
+            "total_samples": 15,
+            "errors": 0,
+            "accuracy": 1.0,
+            "error_rate": 0.0
+        },
+        "IoT": {
+            "total_samples": 12,
+            "errors": 0,
+            "accuracy": 1.0,
+            "error_rate": 0.0
+        },
+        "Library Management": {
+            "total_samples": 6,
+            "errors": 0,
+            "accuracy": 1.0,
+            "error_rate": 0.0
+        },
+        "Logistics": {
+            "total_samples": 7,
+            "errors": 1,
+            "accuracy": 0.8571,
+            "error_rate": 0.1429
+        },
+        "Manufacturing": {
+            "total_samples": 13,
+            "errors": 0,
+            "accuracy": 1.0,
+            "error_rate": 0.0
+        },
+        "Mobile Applications": {
+            "total_samples": 10,
+            "errors": 0,
+            "accuracy": 1.0,
+            "error_rate": 0.0
+        },
+        "Social Media": {
+            "total_samples": 9,
+            "errors": 0,
+            "accuracy": 1.0,
+            "error_rate": 0.0
+        },
+        "Transportation": {
+            "total_samples": 8,
+            "errors": 1,
+            "accuracy": 0.875,
+            "error_rate": 0.125
+        }
+    },
+    "confidence_buckets": {
+        "High-Confidence Correct (>=0.80)": 2,
+        "High-Confidence Incorrect (>=0.80)": 0,
+        "Low-Confidence Correct (<0.80)": 240,
+        "Low-Confidence Incorrect (<0.80)": 5
+    },
+    "augmentation_needed": false,
+    "recommendation": "Step 12 error analysis completed. Model baseline accuracy is high (98.4%+ F1). No targeted data augmentation required unless false negatives exceed threshold."
+}

@@ -1,0 +1,9 @@
+{
+    "model_name": "TF-IDF + Multinomial Naive Bayes",
+    "confusion_matrix": {
+        "true_negative": 60,
+        "false_positive": 2,
+        "false_negative": 0,
+        "true_positive": 62
+    }
+}

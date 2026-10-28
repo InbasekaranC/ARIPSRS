@@ -1,0 +1,29 @@
+# Virtual environments & caches
+backend/venv/
+venv/
+.venv/
+**/__pycache__/
+*.pyc
+node_modules/
+frontend/node_modules/
+frontend/dist/
+
+# Large training datasets & offline benchmarking scripts (not needed at inference runtime)
+*.csv
+backend/*.csv
+backend/data/
+backend/evaluation/
+backend/stage2_dataset_pipeline/
+backend/stage3_benchmarking/
+backend/step12_error_analysis/
+backend/tests/
+backend/train*.py
+backend/test_*.py
+ambiguity_model_phase14.joblib
+backend/model/saved_model/backups/
+backend/model/saved_model/ambiguity_model_phase14.joblib
+backend/model/saved_model/baseline_model.joblib
+backend/model/saved_model/ambiguity_model_v2.pkl
+backend/model/saved_model/tfidf_vectorizer_v2.pkl
+backend/model/requirement_classifier/classifier_pipeline_backup.joblib
+*.docx

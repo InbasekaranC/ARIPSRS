@@ -1,0 +1,102 @@
+[
+    {
+        "Model": "Linear SVM",
+        "Subset_Ratio": "20%",
+        "Train_Size": 115,
+        "Test_Size": 124,
+        "Accuracy": 0.9758,
+        "Precision": 0.9538,
+        "Recall": 1.0,
+        "F1_Score": 0.9764
+    },
+    {
+        "Model": "Logistic Regression",
+        "Subset_Ratio": "20%",
+        "Train_Size": 115,
+        "Test_Size": 124,
+        "Accuracy": 0.9839,
+        "Precision": 0.9839,
+        "Recall": 0.9839,
+        "F1_Score": 0.9839
+    },
+    {
+        "Model": "Linear SVM",
+        "Subset_Ratio": "40%",
+        "Train_Size": 230,
+        "Test_Size": 124,
+        "Accuracy": 0.9758,
+        "Precision": 0.9538,
+        "Recall": 1.0,
+        "F1_Score": 0.9764
+    },
+    {
+        "Model": "Logistic Regression",
+        "Subset_Ratio": "40%",
+        "Train_Size": 230,
+        "Test_Size": 124,
+        "Accuracy": 0.9839,
+        "Precision": 0.9688,
+        "Recall": 1.0,
+        "F1_Score": 0.9841
+    },
+    {
+        "Model": "Linear SVM",
+        "Subset_Ratio": "60%",
+        "Train_Size": 345,
+        "Test_Size": 124,
+        "Accuracy": 0.9758,
+        "Precision": 0.9538,
+        "Recall": 1.0,
+        "F1_Score": 0.9764
+    },
+    {
+        "Model": "Logistic Regression",
+        "Subset_Ratio": "60%",
+        "Train_Size": 345,
+        "Test_Size": 124,
+        "Accuracy": 0.9758,
+        "Precision": 0.9538,
+        "Recall": 1.0,
+        "F1_Score": 0.9764
+    },
+    {
+        "Model": "Linear SVM",
+        "Subset_Ratio": "80%",
+        "Train_Size": 460,
+        "Test_Size": 124,
+        "Accuracy": 0.9758,
+        "Precision": 0.9538,
+        "Recall": 1.0,
+        "F1_Score": 0.9764
+    },
+    {
+        "Model": "Logistic Regression",
+        "Subset_Ratio": "80%",
+        "Train_Size": 460,
+        "Test_Size": 124,
+        "Accuracy": 0.9758,
+        "Precision": 0.9538,
+        "Recall": 1.0,
+        "F1_Score": 0.9764
+    },
+    {
+        "Model": "Linear SVM",
+        "Subset_Ratio": "100%",
+        "Train_Size": 575,
+        "Test_Size": 124,
+        "Accuracy": 0.9839,
+        "Precision": 0.9688,
+        "Recall": 1.0,
+        "F1_Score": 0.9841
+    },
+    {
+        "Model": "Logistic Regression",
+        "Subset_Ratio": "100%",
+        "Train_Size": 575,
+        "Test_Size": 124,
+        "Accuracy": 0.9758,
+        "Precision": 0.9538,
+        "Recall": 1.0,
+        "F1_Score": 0.9764
+    }
+]

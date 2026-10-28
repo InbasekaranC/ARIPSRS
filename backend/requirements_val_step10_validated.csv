@@ -1,0 +1,275 @@
+Requirement,Label,Ambiguity_Type,Domain,Source
+The flight booking app shall hold selected seats for 10 minutes prior to payment confirmation.,Clear,,Banking,Original
+Gantt chart export should support appropriate file formats.,Ambiguous,Subjective Wording,General Software,Original
+The authentication service shall issue a new session token upon successful login.,Clear,,General Software,Original
+The reporting module shall anonymize personally identifiable information in exported analytics reports.,Clear,,General Software,Original
+The Platform shall encrypt passwords using bcrypt during appointment booking.,Clear,,Railway,Original
+The User shall allow users to reset passwords via email while processing payments.,Clear,,Communication Systems,Original
+The reporting module shall generate a dropout rate report broken down by department.,Clear,,Student Management,Original
+The system shall generate daily settlement reports comparing merchant sales against payouts.,Clear,,E-Commerce,Original
+The application should be moderately intuitive for elderly users.,Ambiguous,Subjective Wording,General Software,Original
+Stock levels should update automatically and stay accurate etc.,Ambiguous,Incomplete Information,Inventory,Original
+Station staff shall be able to log a security incident with a timestamp and description.,Clear,,Railway,Original
+The financial engine shall round currency values to exactly 2 decimal places using banker's rounding.,Clear,,General Software,Original
+The system shall use checksum validation to detect data corruption during file transfer.,Clear,,Banking,Original
+The Payment module should minimize delays during data synchronization.,Ambiguous,Weak/Optional Wording,Banking,Original
+The system shall calculate a bulk purchase discount of 5% for orders above $500.,Clear,,General Software,Original
+The system shall approve the request.,Ambiguous,Incomplete Information,General Software,Original
+The system should be practical for use by part-time staff.,Ambiguous,Weak/Optional Wording,General Software,Original
+The Application shall authenticate users using email and password during login.,Clear,,Communication Systems,Original
+The application should give users a sense of confidence.,Ambiguous,Weak/Optional Wording,General Software,Original
+The system should be acceptable in terms of sync speed.,Ambiguous,Weak/Optional Wording,General Software,Original
+The reporting dashboard shall look polished to the board of trustees.,Ambiguous,Incomplete Information,General Software,Original
+The system shall complete the reset once the request is authorized.,Ambiguous,Incomplete Information,General Software,Original
+The application should be smooth when switching between accounts.,Ambiguous,Weak/Optional Wording,General Software,Original
+The design shall be pleasant according to the marketing team's vision.,Ambiguous,Subjective Wording,General Software,Original
+The Doctor should be fast while processing payments.,Ambiguous,Vague Wording,Healthcare,Original
+The application shall display the number of available wheelchairs at each station.,Clear,,Railway,Original
+The reporting module may allow custom filters if development time permits.,Ambiguous,Weak/Optional Wording,General Software,Original
+Doctors may be given the option to add private notes to a case.,Ambiguous,Weak/Optional Wording,General Software,Original
+The application shall load the homepage within 3 seconds on a 4G network connection.,Clear,,General Software,Original
+The system shall export monthly sales reports in PDF and CSV formats within 5 seconds.,Clear,,General Software,Original
+The platform shall allow account deletion with a 14-day grace period before data erasure.,Clear,,Railway,Original
+The system shall generate the certificate.,Ambiguous,Incomplete Information,General Software,Original
+The system shall replicate transaction data to a backup server within 5 seconds.,Clear,,Banking,Original
+The application should feel efficient during high-traffic hours.,Ambiguous,Non-measurable Requirement,General Software,Original
+The application should feel comfortable to navigate.,Ambiguous,Subjective Wording,General Software,Original
+The booking service shall reconcile daily transactions with the payment gateway by 6 AM the next day.,Clear,,Banking,Original
+Patients shall be able to cancel an appointment up to 2 hours before the scheduled time.,Clear,,General Software,Original
+The Employee should minimize delays while updating records.,Ambiguous,Weak/Optional Wording,Payroll,Original
+The authentication service shall require users to change their password every 90 days.,Clear,,General Software,Original
+The application shall alert the office once the limit is reached.,Ambiguous,Incomplete Information,General Software,Original
+Spot counters should update in real time smoothly.,Ambiguous,Incomplete Information,General Software,Original
+The system shall support a minimum of 200 API calls per second during peak load.,Clear,,General Software,Original
+"The system shall automatically generate tax invoices containing GSTIN, HSN code, and tax breakdown.",Clear,,Payroll,Original
+The system may support additional languages in later versions.,Ambiguous,Incomplete Information,General Software,Original
+The User should provide appropriate notifications while processing payments.,Ambiguous,Subjective Wording,General Software,Original
+The system shall complete a full database backup within a 2.5-hour weekly maintenance window.,Clear,,General Software,Original
+The system shall feel welcoming to first-time account holders.,Ambiguous,Lexical Ambiguity,General Software,Original
+The reporting tool should present data in a clear and appealing way.,Ambiguous,Subjective Wording,General Software,Original
+Customer support agents shall be able to close a support ticket after resolution confirmation.,Clear,,Railway,Original
+The application shall schedule the reminder.,Ambiguous,Incomplete Information,General Software,Original
+The API shall return HTTP 200 status code with JSON payload within 300 milliseconds.,Clear,,General Software,Original
+The Student should handle requests quickly during file upload.,Ambiguous,Incomplete Information,Education,Original
+The Payment module shall send confirmation emails after registration during file upload.,Clear,,Banking,Original
+The reporting module shall compile the metrics.,Ambiguous,Incomplete Information,General Software,Original
+The system shall issue the certificate.,Ambiguous,Incomplete Information,General Software,Original
+The application shall display a member's reading history sorted by most recent activity.,Clear,,General Software,Original
+The system shall send a birthday discount coupon to registered customers on their birthday.,Clear,,E-Commerce,Original
+The system should perform reliably under seasonal demand spikes.,Ambiguous,Vague Wording,General Software,Original
+The system shall calculate interest on a fixed deposit based on the tenure selected by the customer.,Clear,,Banking,Original
+The system shall assign the query based on priority.,Ambiguous,Incomplete Information,General Software,Original
+The system shall calculate a late fee of $0.50 per day for overdue books.,Clear,,Library Management,Original
+The reporting tool shall highlight the number that looks wrong.,Ambiguous,Undefined Reference/Pronoun,General Software,Original
+The system shall transfer the item to the assigned handler.,Ambiguous,Incomplete Information,Banking,Original
+The user interface must be modern and user-friendly for all customers.,Ambiguous,Subjective Wording,General Software,Original
+The application must use robust security measures to protect user data.,Ambiguous,Non-measurable Requirement,General Software,Original
+The system shall verify the account.,Ambiguous,Lexical Ambiguity,General Software,Original
+The payment gateway integration shall settle merchant payouts within 2 business days.,Clear,,Banking,Original
+The application shall send an SMS notification within 30 seconds of a successful fund transfer.,Clear,,Banking,Original
+The application shall process the appeal.,Ambiguous,Incomplete Information,General Software,Original
+The system shall lock the exam timetable 7 days before the first scheduled exam.,Clear,,Education,Original
+The system could provide a preview of changes before saving.,Ambiguous,Incomplete Information,General Software,Original
+The module shall clear the entry once it has been processed.,Ambiguous,Undefined Reference/Pronoun,General Software,Original
+The application shall send an order confirmation email within 2 minutes of purchase.,Clear,,E-Commerce,Original
+The Doctor shall support up to 500 concurrent users during registration.,Clear,,Healthcare,Original
+The application shall notify a customer 5 days before their fixed deposit matures.,Clear,,E-Commerce,Original
+The application should give a modern feel to younger users.,Ambiguous,Subjective Wording,General Software,Original
+The Library system shall respond to search requests within 2 seconds during registration.,Clear,,Library Management,Original
+The Customer shall complete operation within 9 seconds during while processing payments.,Clear,,E-Commerce,Original
+Trash items should be stored for a reasonable timeframe before purging.,Ambiguous,Subjective Wording,General Software,Original
+"The application shall support at least 2,500 concurrent support ticket submissions.",Clear,,Railway,Original
+The system should perform reliably under moderate load.,Ambiguous,Vague Wording,General Software,Original
+API access should be throttled appropriately to maintain stability.,Ambiguous,Incomplete Information,General Software,Original
+The booking process should feel personalized for frequent travelers.,Ambiguous,Incomplete Information,General Software,Original
+The application shall support multi-language invoices based on the customer's selected language.,Clear,,E-Commerce,Original
+The Payment module shall allow users to reset passwords via email during password reset.,Clear,,Banking,Original
+The system shall calculate the discount for eligible customers.,Ambiguous,Incomplete Information,General Software,Original
+The system shall be adequately fast for large-batch imports.,Ambiguous,Vague Wording,General Software,Original
+The Customer should handle requests quickly during report generation.,Ambiguous,Incomplete Information,E-Commerce,Original
+The system shall confirm the transfer once it is done.,Ambiguous,Undefined Reference/Pronoun,Banking,Original
+The Bank shall support up to 500 concurrent users during registration.,Clear,,Banking,Original
+Doctors might be allowed to override certain system alerts if necessary.,Ambiguous,Weak/Optional Wording,General Software,Original
+The application shall render PDF previews within 2 seconds for files under 20MB.,Clear,,General Software,Original
+The module shall reject the record if it does not comply.,Ambiguous,Undefined Reference/Pronoun,General Software,Original
+The Bank should provide a better user experience while updating records.,Ambiguous,Incomplete Information,Banking,Original
+The Patient should support many users during appointment booking.,Ambiguous,Incomplete Information,Healthcare,Original
+"The application shall maintain consistent layout rendering across Chrome, Edge, and Firefox.",Clear,,General Software,Original
+The system shall support horizontal scaling by adding additional server nodes during peak load.,Clear,,General Software,Original
+The system may support export of academic records in additional formats.,Ambiguous,Incomplete Information,General Software,Original
+Customers shall be able to nominate a beneficiary for their savings account online.,Clear,,General Software,Original
+The system shall notify the manager when the request is approved.,Ambiguous,Incomplete Information,General Software,Original
+The Customer shall send confirmation emails after registration during appointment booking.,Clear,,E-Commerce,Original
+The platform should support flexible user roles and access permissions.,Ambiguous,Incomplete Information,Railway,Original
+The Student shall store audit logs for 90 days during appointment booking.,Clear,,E-Commerce,Original
+The application shall schedule the visit.,Ambiguous,Incomplete Information,General Software,Original
+The interface shall be inviting for casual shoppers browsing deals.,Ambiguous,Incomplete Information,General Software,Original
+The booking service shall allow a passenger to add travel insurance during checkout.,Clear,,Railway,Original
+The LMS portal shall mark course completion when student views 100% of video content and passes quiz with >= 80%.,Clear,,Education,Original
+The reporting module shall export account statements in CSV format for a selected date range.,Clear,,General Software,Original
+The application shall be moderately fast when searching for products.,Ambiguous,Vague Wording,General Software,Original
+The system must guarantee optimal availability and minimal downtime.,Ambiguous,Vague Wording,General Software,Original
+The app should be lightweight and consume minimal memory.,Ambiguous,Vague Wording,General Software,Original
+The system may support additional payment methods if feasible.,Ambiguous,Incomplete Information,Banking,Original
+"The platform shall allow administrators to assign one of three roles: Admin, Editor, or Viewer.",Clear,,Railway,Original
+Teachers shall be able to set a weightage percentage for each assignment within a course.,Clear,,Education,Original
+The reporting module shall compile the results.,Ambiguous,Incomplete Information,General Software,Original
+The system shall output log files formatted strictly as JSON lines.,Clear,,General Software,Original
+The system shall calculate the interest.,Ambiguous,Incomplete Information,Banking,Original
+The system shall schedule a vaccination reminder based on a child's date of birth.,Clear,,General Software,Original
+"The system shall generate a duplicate ticket copy if the original is reported lost, for a processing fee.",Clear,,Railway,Original
+The application should give a premium feel to gold-tier members.,Ambiguous,Weak/Optional Wording,General Software,Original
+The booking service may provide priority boarding for certain ticket classes.,Ambiguous,Incomplete Information,Railway,Original
+The Payment module should support many users during file upload.,Ambiguous,Incomplete Information,Banking,Original
+Drag and drop uploads should be seamless and intuitive for users.,Ambiguous,Subjective Wording,General Software,Original
+The system shall retain deleted records in a recovery bin for 30 days before permanent deletion.,Clear,,General Software,Original
+Administrators shall be able to set a minimum balance requirement for a savings account type.,Clear,,General Software,Original
+The Application should be easy to use during report generation.,Ambiguous,Subjective Wording,General Software,Original
+The system shall maintain 99.7% uptime for the customer self-service portal.,Clear,,E-Commerce,Original
+The Student should be secure during report generation.,Ambiguous,Non-measurable Requirement,Education,Original
+The reporting tool shall highlight the value that seems inconsistent.,Ambiguous,Undefined Reference/Pronoun,General Software,Original
+The payment module shall support recurring subscription billing on a fixed monthly date.,Clear,,Banking,Original
+The application should be quick enough for peak-hour transactions.,Ambiguous,Vague Wording,General Software,Original
+The IoT gateway shall collect sensor readings every 15 seconds and transmit over MQTT protocol.,Clear,,General Software,Original
+The Manager shall store audit logs for 90 days during data synchronization.,Clear,,E-Commerce,Original
+The application shall display a countdown timer during the checkout payment window.,Clear,,Banking,Original
+Overdue invoices should be displayed prominently and clearly.,Ambiguous,Weak/Optional Wording,Library Management,Original
+Administrators shall be able to generate monthly transaction reports in PDF format.,Clear,,Banking,Original
+The Library system should be secure while updating records.,Ambiguous,Non-measurable Requirement,Library Management,Original
+The Payment module should provide appropriate notifications while updating records.,Ambiguous,Subjective Wording,Banking,Original
+The system shall calculate membership renewal fees based on the selected subscription tier.,Clear,,General Software,Original
+The system shall check the record.,Ambiguous,Lexical Ambiguity,General Software,Original
+Employees should be able to submit leave requests flexible in advance.,Ambiguous,Weak/Optional Wording,General Software,Original
+The system shall store customer logs for exactly 365 days before automatic purging.,Clear,,E-Commerce,Original
+The booking interface should feel effortless to group organizers.,Ambiguous,Subjective Wording,General Software,Original
+The Payment module shall respond to search requests within 2 seconds during file upload.,Clear,,Banking,Original
+The Manager shall generate monthly reports in PDF format while updating records.,Clear,,General Software,Original
+The payment module shall block a transaction if the card has expired.,Clear,,Banking,Original
+The application should be smooth when switching between patient records.,Ambiguous,Weak/Optional Wording,Healthcare,Original
+The Student should work efficiently while updating records.,Ambiguous,Vague Wording,Education,Original
+Doctors shall be able to view a patient's complete medical history within the patient record screen.,Clear,,Healthcare,Original
+Customer support agents shall be able to view a customer's last 5 support tickets during a call.,Clear,,E-Commerce,Original
+The Customer should be fast during login.,Ambiguous,Vague Wording,E-Commerce,Original
+The platform shall store backup files in an encrypted AWS S3 bucket with versioning enabled.,Clear,,Railway,Original
+The system shall process the claim.,Ambiguous,Incomplete Information,General Software,Original
+The Doctor should provide appropriate notifications during checkout.,Ambiguous,Subjective Wording,Healthcare,Original
+The reporting module shall cache frequently accessed reports for 15 minutes to reduce database load.,Clear,,General Software,Original
+The application should be quick enough for high-volume checkout periods.,Ambiguous,Vague Wording,E-Commerce,Original
+The User shall back up the database every 24 hours while processing payments.,Clear,,General Software,Original
+Basic subscription plans should have appropriate team size limits.,Ambiguous,Subjective Wording,General Software,Original
+The Application shall store audit logs for 90 days while updating records.,Clear,,E-Commerce,Original
+The Application should work efficiently during file upload.,Ambiguous,Vague Wording,General Software,Original
+The IoT sensor node shall operate on battery power for at least 24 months under normal operation.,Clear,,General Software,Original
+The system shall isolate tenant data in the multi-tenant architecture using separate database schemas.,Clear,,General Software,Original
+The reporting dashboard shall look impressive to stakeholders.,Ambiguous,Incomplete Information,General Software,Original
+The system shall calculate cashback at 2% for purchases made using the store credit card.,Clear,,Banking,Original
+The Library system should improve performance while processing payments.,Ambiguous,Incomplete Information,Library Management,Original
+The Customer should handle requests quickly while updating records.,Ambiguous,Incomplete Information,E-Commerce,Original
+Search should be flexible and support advanced query syntax.,Ambiguous,Incomplete Information,General Software,Original
+The system shall route the ticket to the relevant team for handling.,Ambiguous,Incomplete Information,Railway,Original
+The booking service shall allow passengers to select vegetarian or non-vegetarian meal preferences.,Clear,,General Software,Original
+The booking service should provide a smooth experience during checkout.,Ambiguous,Incomplete Information,E-Commerce,Original
+Suspicious scanning activity should be handled robustly by the system.,Ambiguous,Weak/Optional Wording,General Software,Original
+The system might notify a customer of a delayed refund if applicable.,Ambiguous,Weak/Optional Wording,E-Commerce,Original
+The application shall support multi-currency pricing displayed based on the user's billing country.,Clear,,General Software,Original
+The system shall verify the details.,Ambiguous,Incomplete Information,General Software,Original
+The system shall complete an incremental backup every 6 hours during business operations.,Clear,,General Software,Original
+Administrators shall be able to enroll a student in a course if prerequisite requirements are met.,Clear,,Education,Original
+The reporting module shall generate a semester-wise performance trend for each student.,Clear,,Education,Original
+The application could allow guest checkout without registration.,Ambiguous,Weak/Optional Wording,E-Commerce,Original
+The system shall allow a passenger to add an emergency contact number during booking.,Clear,,Railway,Original
+The system shall maintain automated test coverage of at least 75% for the payment module.,Clear,,Banking,Original
+Video quality should adapt smoothly depending on network speed.,Ambiguous,Vague Wording,General Software,Original
+The system should be acceptable in terms of loading speed.,Ambiguous,Weak/Optional Wording,General Software,Original
+The system shall restrict admin access to designated IP subnet 192.168.1.0/24.,Clear,,General Software,Original
+The smart meter system shall transmit hourly electricity consumption readings via cellular network.,Clear,,General Software,Original
+The system might allow customers to save multiple addresses.,Ambiguous,Weak/Optional Wording,General Software,Original
+The system shall calculate the average product rating based on all submitted reviews.,Clear,,E-Commerce,Original
+The system shall maintain 99.8% uptime for the customer support portal.,Clear,,E-Commerce,Original
+The Application should improve performance while updating records.,Ambiguous,Incomplete Information,General Software,Original
+The reporting module may support anomaly detection alerts if enabled.,Ambiguous,Incomplete Information,General Software,Original
+The system shall send the document to the concerned party.,Ambiguous,Incomplete Information,General Software,Original
+The Bank should be easy to use during file upload.,Ambiguous,Subjective Wording,Banking,Original
+The system shall notify the group once the update is done.,Ambiguous,Incomplete Information,General Software,Original
+The system shall lock a student's exam registration 48 hours before the exam date.,Clear,,Education,Original
+The Library system should handle requests quickly during report generation.,Ambiguous,Incomplete Information,Library Management,Original
+The system shall release the block.,Ambiguous,Incomplete Information,General Software,Original
+The POS system shall print physical receipts within 1.5 seconds of cash transaction completion.,Clear,,Banking,Original
+The booking service should feel efficient for occasional travelers.,Ambiguous,Non-measurable Requirement,General Software,Original
+The booking service shall prevent double-booking of the same doctor at the same time slot.,Clear,,Healthcare,Original
+The system shall calculate a student's final grade based on weighted assignment and exam scores.,Clear,,Education,Original
+The system shall calculate a student's percentile rank based on the entrance exam score.,Clear,,Education,Original
+The system shall process the exchange.,Ambiguous,Incomplete Information,General Software,Original
+The application shall alert the branch once the cap is reached.,Ambiguous,Incomplete Information,General Software,Original
+The system shall calculate a student's eligibility for a scholarship based on GPA and attendance.,Clear,,Education,Original
+The Platform shall send confirmation emails after registration during password reset.,Clear,,Railway,Original
+The application could support wearable device integration in a later release.,Ambiguous,Incomplete Information,General Software,Original
+The system shall maintain 99.9% uptime measured on a monthly basis.,Clear,,General Software,Original
+The interface shall look sophisticated to business clients.,Ambiguous,Incomplete Information,General Software,Original
+"The payment module shall support Visa, Mastercard, and PayPal as payment options.",Clear,,Banking,Original
+The system shall calculate loyalty points at a rate of 1 point per $10 spent.,Clear,,General Software,Original
+The system shall support unit test coverage of at least 80% for critical modules.,Clear,,General Software,Original
+"The system shall store audit logs in a write-once, read-many storage format.",Clear,,E-Commerce,Original
+The system shall update the schedule.,Ambiguous,Incomplete Information,General Software,Original
+The application shall notify staff of scheduled system downtime at least 24 hours in advance.,Clear,,General Software,Original
+Administrators shall be able to assign substitute teachers when a faculty member is on leave.,Clear,,Education,Original
+The application shall alert the user if the value exceeds the limit.,Ambiguous,Incomplete Information,General Software,Original
+The application shall display estimated restock dates for out-of-stock items.,Clear,,Inventory,Original
+The application shall validate that a national ID number contains exactly 12 digits before submission.,Clear,,General Software,Original
+The Software shall back up the database every 24 hours while processing payments.,Clear,,General Software,Original
+The application shall assign the case to the next agent.,Ambiguous,Incomplete Information,General Software,Original
+The application shall retain chat support transcripts for a minimum of 2 years.,Clear,,Communication Systems,Original
+The Platform shall complete operation within 10 seconds during during appointment booking.,Clear,,Railway,Original
+The system shall route the claim to wherever it should go.,Ambiguous,Undefined Reference/Pronoun,Transportation,Original
+Contact synchronization should happen frequently and smoothly.,Ambiguous,Vague Wording,General Software,Original
+The application shall support screen reader compatibility for visually impaired users.,Clear,,General Software,Original
+The application shall display an estimated wait time for items currently backordered.,Clear,,General Software,Original
+The smart grid system shall disconnect solar feed if voltage exceeds 253V for more than 3 seconds.,Clear,,General Software,Original
+The application shall notify the operations team within 1 minute of a server going offline.,Clear,,General Software,Original
+The application shall send the notice.,Ambiguous,Incomplete Information,General Software,Original
+The application shall be compatible with screen readers such as JAWS and NVDA.,Clear,,General Software,Original
+The system shall confirm the change once it is applied.,Ambiguous,Undefined Reference/Pronoun,General Software,Original
+The reporting module shall compile the statistics.,Ambiguous,Incomplete Information,General Software,Original
+The system shall check the status.,Ambiguous,Incomplete Information,General Software,Original
+Administrators shall be able to set a daily withdrawal limit for each account type.,Clear,,General Software,Original
+Customers shall be able to apply a maximum of one coupon code per order.,Clear,,E-Commerce,Original
+The system shall be fairly robust against occasional network delays.,Ambiguous,Non-measurable Requirement,General Software,Original
+The Employee shall validate all mandatory input fields during registration.,Clear,,Payroll,Original
+The system shall calculate the average number of days a book remains on the shelf before being borrowed.,Clear,,Library Management,Original
+The booking interface should feel friendly to occasional travelers.,Ambiguous,Weak/Optional Wording,General Software,Original
+Station staff shall be able to log lost-and-found items with a description and date found.,Clear,,Railway,Original
+The application shall notify the office.,Ambiguous,Incomplete Information,General Software,Original
+The System shall validate all mandatory input fields during appointment booking.,Clear,,General Software,Original
+Administrators may choose to enable two-factor authentication.,Ambiguous,Weak/Optional Wording,General Software,Original
+The application shall assign the query to the next agent.,Ambiguous,Incomplete Information,General Software,Original
+The system might integrate with third-party calendars eventually.,Ambiguous,Weak/Optional Wording,General Software,Original
+The Bank shall allow users to reset passwords via email during report generation.,Clear,,Banking,Original
+The system should be agreeable to the operations team.,Ambiguous,Weak/Optional Wording,General Software,Original
+The application could offer trial access to premium courses for new students.,Ambiguous,Weak/Optional Wording,General Software,Original
+The application could allow users to customize their dashboard.,Ambiguous,Undefined Reference/Pronoun,General Software,Original
+The application could offer bundled pricing for related products.,Ambiguous,Weak/Optional Wording,General Software,Original
+The system shall complete a database backup within a 2-hour maintenance window.,Clear,,General Software,Original
+The reporting module shall display attendance percentage for each enrolled student.,Clear,,Education,Original
+The User should support many users while processing payments.,Ambiguous,Incomplete Information,General Software,Original
+The application shall allow a student to withdraw from a course before the add/drop deadline.,Clear,,Education,Original
+The system shall be enjoyable to use during long sessions.,Ambiguous,Incomplete Information,General Software,Original
+The system should be agreeable to the legal department.,Ambiguous,Weak/Optional Wording,Student Management,Original
+The system shall use connection pooling to support up to 800 simultaneous database queries.,Clear,,General Software,Original
+The system shall generate a unique reference number for every loan disbursement.,Clear,,Banking,Original
+The system shall be gratifying to use for long-time subscribers.,Ambiguous,Incomplete Information,General Software,Original
+The Software shall encrypt passwords using bcrypt during appointment booking.,Clear,,General Software,Original
+The reporting tool shall link the item to the related file.,Ambiguous,Lexical Ambiguity,General Software,Original
+The system shall automatically log out an administrator after 3 failed two-factor authentication attempts.,Clear,,General Software,Original
+The application shall display a countdown to the next scheduled dose on the medication tracker.,Clear,,Healthcare,Original
+The system shall flag the entry.,Ambiguous,Incomplete Information,General Software,Original
+The application should have a nice and modern design.,Ambiguous,Subjective Wording,General Software,Original
+The reporting module shall support export to Google Sheets for cross-team collaboration.,Clear,,General Software,Original
+The module shall clear the queue after the batch finishes.,Ambiguous,Incomplete Information,General Software,Original
+The system shall calculate a discount for members renewing their subscription before expiry.,Clear,,General Software,Original
+The system shall use rate limiting to prevent denial-of-service attacks on public endpoints.,Clear,,General Software,Original
+The system may allow administrators to customize report templates.,Ambiguous,Weak/Optional Wording,General Software,Original
+The reporting module shall mask employee salary details in exported team-level reports.,Clear,,Payroll,Original
+Administrators shall be able to set a maximum daily transaction limit per merchant account.,Clear,,Banking,Original
+The system shall generate an alert when a patient's heart rate exceeds 120 beats per minute.,Clear,,Healthcare,Original
+The e-commerce system shall calculate sales tax dynamically based on customer state and local tax laws.,Clear,,E-Commerce,Original
+The reporting tool shall link the record to the corresponding file.,Ambiguous,Lexical Ambiguity,General Software,Original

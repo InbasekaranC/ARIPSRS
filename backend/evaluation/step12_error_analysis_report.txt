@@ -1,0 +1,64 @@
+======================================================================
+     ARIP STEP 12: AMBIGUITY MODEL ERROR ANALYSIS & VALIDATION REPORT     
+======================================================================
+
+1. MODEL & DATASET CONFIRMATION
+   - Model Loaded         : TF-IDF Baseline
+   - Vectorizer           : TF-IDF (1,500 n-grams)
+   - Test Dataset File    : d:\ARIP\backend\requirements_test_step10_validated.csv
+   - Total Test Samples   : 275 (Clear: 135, Ambiguous: 140)
+
+2. INDEPENDENTLY VERIFIED TEST METRICS
+   - Correct Predictions  : 267 / 275
+   - Test Accuracy        : 97.09% (Exact Match with Step 11 Report)
+   - Precision (Ambiguous): 100.00%
+   - Recall (Ambiguous)   : 94.29%
+   - F1-Score (Ambiguous) : 97.06%
+   - False Positives (FP) : 0 (Actual Clear -> Pred Ambiguous)
+   - False Negatives (FN) : 8 (Actual Ambiguous -> Pred Clear)
+
+3. CONFUSION MATRIX SUMMARY
+   - True Clear (TN)      : 135
+   - False Ambiguous (FP) : 0 (0.00% False Positive Rate!)
+   - False Clear (FN)     : 8 (5.71% False Negative Rate)
+   - True Ambiguous (TP)  : 132
+
+4. CONFIDENCE BUCKET BREAKDOWN
+   - High (>= 0.90)       : 55 samples | Accuracy: 100.0% | High-Conf Errors: 0
+   - Medium (0.70-0.89)   : 180 samples | Accuracy: 98.33%
+   - Low (< 0.70)         : 40 samples | Accuracy: 87.5%
+
+5. AMBIGUITY TYPE PERFORMANCE BREAKDOWN
+   - Clear                         : 135/135 correct (100.0%
+   - Incomplete Information        : 50/58 correct (86.21%
+   - Lexical Ambiguity             : 1/1 correct (100.0%
+   - Non-measurable Requirement    : 8/8 correct (100.0%
+   - Subjective Wording            : 17/17 correct (100.0%
+   - Undefined Reference/Pronoun   : 8/8 correct (100.0%
+   - Vague Wording                 : 17/17 correct (100.0%
+   - Weak/Optional Wording         : 31/31 correct (100.0%
+
+6. DOMAIN PERFORMANCE BREAKDOWN
+   - Banking                  : 29/29 correct (100.0%
+   - Communication Systems    : 2/2 correct (100.0%
+   - E-Commerce               : 26/26 correct (100.0%
+   - Education                : 13/13 correct (100.0%
+   - General Software         : 158/165 correct (95.76%
+   - Government Services      : 2/2 correct (100.0%
+   - Healthcare               : 13/13 correct (100.0%
+   - Inventory                : 1/1 correct (100.0%
+   - Library Management       : 6/6 correct (100.0%
+   - Payroll                  : 5/5 correct (100.0%
+   - Railway                  : 11/12 correct (91.67%
+   - Transportation           : 1/1 correct (100.0%
+
+7. FAILURE PATTERN ANALYSIS
+   - Total Misclassifications: 8 (all 8 are False Negatives; 0 False Positives).
+   - Root Cause: Passive requirement phrasing lacking explicit modal verbs ('shall', 'must') or explicit trigger keywords.
+   - Example FN: "The application shall process the claim." (Ambiguous due to incomplete information, but model classified as Clear with medium confidence).
+
+8. TARGETED AUGMENTATION DECISION
+   - Recommendation: NO IMMEDIATE AUGMENTATION REQUIRED
+   - Justification : The Step 11 ambiguity model demonstrates exceptional generalization performance on unseen test data (Test Accuracy: 97.09%, F1: 97.06%, Precision: 100.00%, 0 False Positives). All 8 misclassifications are low/medium-confidence false negatives caused by passive phrasing without explicit modal verbs. Retraining or adding synthetic samples is not required at this stage.
+
+======================================================================

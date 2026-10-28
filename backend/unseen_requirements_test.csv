@@ -1,0 +1,101 @@
+Requirement,Label,target_id
+The system shall authenticate user login requests via OAuth 2.0 within 1500 milliseconds.,Clear,0
+The database shall execute automated daily backups at 02:00 UTC and store logs for 180 days.,Clear,0
+The mobile app shall render the dashboard screen within 2.0 seconds under 4G network connection.,Clear,0
+The microservice shall return HTTP 400 Bad Request when mandatory fields are omitted.,Clear,0
+The application shall encrypt stored payment data using AES-256 GCM encryption algorithm.,Clear,0
+The API gateway shall throttle client requests exceeding 100 requests per minute per IP address.,Clear,0
+"The system shall support concurrent active user sessions up to 5,000 without session drop.",Clear,0
+"The application shall export audit logs in CSV format containing Timestamp, UserID, Action, and IP Address.",Clear,0
+The password reset token shall expire exactly 15 minutes after issuance.,Clear,0
+The UI shall display error message 'Invalid Email Format' when input lacks an '@' character.,Clear,0
+The order processing service shall calculate sales tax according to state-level zip code tables.,Clear,0
+The system shall process PDF file uploads up to a maximum size of 25 megabytes.,Clear,0
+The notification service shall deliver SMS alerts within 10 seconds of triggered security events.,Clear,0
+The database connection pool shall maintain a minimum of 5 and maximum of 50 active connections.,Clear,0
+The web application shall be compliant with WCAG 2.1 Level AA accessibility standards.,Clear,0
+The system shall retain deleted user profiles in soft-delete state for 30 days before permanent purging.,Clear,0
+The session manager shall invalidate user sessions after 20 minutes of continuous inactivity.,Clear,0
+The search engine shall return top 20 relevant results within 800 milliseconds for text queries under 50 characters.,Clear,0
+The system shall generate unique UUID v4 identifiers for every newly created invoice record.,Clear,0
+The frontend shall render invoice summary totals formatted to exactly 2 decimal places with currency symbol.,Clear,0
+The backup service shall execute full weekly server image backups every Sunday at midnight.,Clear,0
+The load balancer shall distribute incoming traffic using round-robin algorithm across 4 node instances.,Clear,0
+The application shall enforce minimum password length of 12 characters including 1 uppercase and 1 digit.,Clear,0
+The REST API shall accept payload sizes up to 10 MB and reject larger payloads with HTTP 413.,Clear,0
+The system shall log all failed login attempts to file '/var/log/arip/auth_failures.log'.,Clear,0
+The user dashboard shall update active system metrics every 5 seconds via WebSockets.,Clear,0
+The exporter service shall generate XML reports matching ISO 20022 schema specification.,Clear,0
+The service shall execute database migrations within a maximum scheduled downtime window of 30 minutes.,Clear,0
+The background worker shall process queued email dispatches at a speed of 50 messages per second.,Clear,0
+The authorization module shall restrict access to administrative endpoints based on RBAC role 'ADMIN'.,Clear,0
+The app shall support offline caching of up to 500 requirement records in IndexedDB storage.,Clear,0
+The system shall complete database index rebuilding within 4 hours during scheduled weekend maintenance.,Clear,0
+The payment gateway integration shall process credit card authorization transactions within 3 seconds.,Clear,0
+The application shall maintain 99.9% uptime measured monthly excluding scheduled maintenance.,Clear,0
+The file scanner shall inspect incoming attachments for viruses using ClamAV definitions updated daily.,Clear,0
+The system shall display a confirmation modal before permanently deleting any workspace project.,Clear,0
+The cache layer shall utilize Redis with a maximum memory capacity of 4 GB and LRU eviction policy.,Clear,0
+The web client shall support screen resolutions from 320x568 to 3840x2160 pixels without horizontal scroll.,Clear,0
+The API shall return JSON response payloads with content-type header 'application/json; charset=utf-8'.,Clear,0
+The monitoring service shall send PagerDuty alerts when CPU utilization exceeds 90% for 5 consecutive minutes.,Clear,0
+"The system shall limit user file uploads to .pdf, .docx, and .csv file extensions.",Clear,0
+The search module shall index text documents up to 500 pages within 60 seconds.,Clear,0
+The reporting engine shall output chart visualizations in SVG format with embedded fonts.,Clear,0
+The app shall log out active sessions immediately when the user clicks the 'Sign Out' button.,Clear,0
+The inventory system shall deduct stock counts in real time upon successful payment confirmation.,Clear,0
+The server shall complete SSL/TLS handshake using TLS 1.3 protocol within 100 milliseconds.,Clear,0
+"The analytics module shall track pageview events with attributes PageURL, UserID, and Timestamp.",Clear,0
+The application shall support internationalization for English (en-US) and Spanish (es-ES) locales.,Clear,0
+The billing engine shall issue automated invoice emails on the 1st day of every calendar month.,Clear,0
+"The data ingestion pipeline shall parse incoming JSON stream at a rate of 10,000 events per minute.",Clear,0
+"The system should be fast, user-friendly, and highly effective.",Ambiguous,1
+The application shall handle unexpected errors gracefully and promptly.,Ambiguous,1
+The database shall back up data regularly to prevent data loss.,Ambiguous,1
+The system shall process user requests as quickly as possible.,Ambiguous,1
+"The interface must look modern, elegant, and appealing to users.",Ambiguous,1
+The system shall provide reasonable performance during peak hours.,Ambiguous,1
+The software should be easy to use and intuitive for new staff.,Ambiguous,1
+The module should handle high load without significant downtime.,Ambiguous,1
+The application should support several file formats as needed.,Ambiguous,1
+The system shall ensure strong security and robust data protection.,Ambiguous,1
+The notification service shall alert users in a timely manner.,Ambiguous,1
+The software shall be flexible enough to accommodate future changes.,Ambiguous,1
+The system should respond appropriately when errors occur.,Ambiguous,1
+The dashboard should display useful metrics nicely.,Ambiguous,1
+The application should be lightweight and run smoothly on old hardware.,Ambiguous,1
+The search feature should find relevant documents standardly.,Ambiguous,1
+The system shall maintain good performance under normal conditions.,Ambiguous,1
+The software should process large files in a reasonable timeframe.,Ambiguous,1
+The application shall protect user privacy safely.,Ambiguous,1
+The interface should minimize user effort during navigation.,Ambiguous,1
+The system should handle stress testing fairly well.,Ambiguous,1
+The backup routine should run frequently to avoid data gaps.,Ambiguous,1
+The application should load pages fast enough for mobile users.,Ambiguous,1
+The system shall provide adequate feedback to user actions.,Ambiguous,1
+The software must be reliable and rarely crash.,Ambiguous,1
+The admin panel should be convenient for managing system state.,Ambiguous,1
+The application should sanitize inputs properly.,Ambiguous,1
+The system should scale seamlessly as the user base grows.,Ambiguous,1
+The software shall provide optimal response times for operations.,Ambiguous,1
+The user profile section should be clean and clear.,Ambiguous,1
+The search engine should return good search results.,Ambiguous,1
+The application should back up data as appropriate.,Ambiguous,1
+The system should be accessible and versatile for all stakeholders.,Ambiguous,1
+The software shall process transactions quickly under peak load.,Ambiguous,1
+The application should handle edge cases nicely.,Ambiguous,1
+The system should support a sufficient number of concurrent users.,Ambiguous,1
+The UI should look attractive and professional.,Ambiguous,1
+The software should offer robust error handling mechanisms.,Ambiguous,1
+The backend should respond to requests in reasonable time.,Ambiguous,1
+The system shall perform automated health checks regularly.,Ambiguous,1
+The software should allow users to configure settings as desired.,Ambiguous,1
+The application should validate input fields effectively.,Ambiguous,1
+The system should provide sufficient logging information.,Ambiguous,1
+The user experience should be smooth and hassle-free.,Ambiguous,1
+The software should maintain high availability at all times.,Ambiguous,1
+The application should update records swiftly.,Ambiguous,1
+The system should consume minimal memory during execution.,Ambiguous,1
+The software should be compatible with popular web browsers.,Ambiguous,1
+The application should process batches quickly.,Ambiguous,1
+The system should provide adequate security controls against hackers.,Ambiguous,1

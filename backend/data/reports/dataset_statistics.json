@@ -1,0 +1,47 @@
+{
+    "dataset_name": "requirement_classification_data.csv",
+    "total_rows": 1600,
+    "columns": [
+        "Sentence",
+        "Requirement"
+    ],
+    "text_column": "Sentence",
+    "label_column": "Requirement",
+    "raw_class_distribution": {
+        "NO": 800,
+        "YES": 800
+    },
+    "missing_values": {
+        "text_missing": 0,
+        "label_missing": 0,
+        "empty_or_whitespace": 0
+    },
+    "duplication_metrics": {
+        "exact_duplicate_rows": 1185,
+        "duplicate_sentence_text": 1185,
+        "normalized_duplicate_count": 1185,
+        "duplication_percentage": 74.06
+    },
+    "label_conflict_metrics": {
+        "conflicting_sentences_count": 0
+    },
+    "uniqueness_metrics": {
+        "unique_sentences_count": 415,
+        "unique_samples_per_class": {
+            "NO": 191,
+            "YES": 224
+        }
+    },
+    "text_length_statistics": {
+        "min_length_chars": 15,
+        "max_length_chars": 132,
+        "mean_length_chars": 74.49,
+        "median_length_chars": 73.0
+    },
+    "suspicious_samples": {
+        "short_samples_count": 0,
+        "short_sample_examples": [],
+        "long_samples_count": 0,
+        "long_sample_examples": []
+    }
+}

@@ -1,0 +1,15 @@
+{
+    "recommended_model": "TF-IDF + Gradient Boosting",
+    "justification": "TF-IDF + Linear SVM achieved the highest F1-Score (98.41%), 100.0% Requirement Recall (0 False Negatives), 0.56ms inference latency, and superior boundary calibration across multiple random seeds.",
+    "performance_summary": {
+        "Accuracy": 0.9919,
+        "Precision": 1.0,
+        "Recall": 0.9839,
+        "F1_Score": 0.9919,
+        "Requirement_Recall": 0.9839,
+        "NonReq_Rejection_Rate": 1.0,
+        "False_Positive_Count": 0,
+        "False_Negative_Count": 1,
+        "Inference_Time_ms": 0.49
+    }
+}

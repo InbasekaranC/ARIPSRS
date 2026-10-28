@@ -1,0 +1,22 @@
+{
+    "validation_confusion_matrix": [
+        [
+            134,
+            1
+        ],
+        [
+            5,
+            134
+        ]
+    ],
+    "test_confusion_matrix": [
+        [
+            135,
+            0
+        ],
+        [
+            8,
+            132
+        ]
+    ]
+}

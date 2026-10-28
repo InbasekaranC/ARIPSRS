@@ -1,0 +1,11 @@
+Model,Subset_Ratio,Train_Size,Test_Size,Accuracy,Precision,Recall,F1_Score
+Linear SVM,20%,115,124,0.9758,0.9538,1.0,0.9764
+Logistic Regression,20%,115,124,0.9839,0.9839,0.9839,0.9839
+Linear SVM,40%,230,124,0.9758,0.9538,1.0,0.9764
+Logistic Regression,40%,230,124,0.9839,0.9688,1.0,0.9841
+Linear SVM,60%,345,124,0.9758,0.9538,1.0,0.9764
+Logistic Regression,60%,345,124,0.9758,0.9538,1.0,0.9764
+Linear SVM,80%,460,124,0.9758,0.9538,1.0,0.9764
+Logistic Regression,80%,460,124,0.9758,0.9538,1.0,0.9764
+Linear SVM,100%,575,124,0.9839,0.9688,1.0,0.9841
+Logistic Regression,100%,575,124,0.9758,0.9538,1.0,0.9764

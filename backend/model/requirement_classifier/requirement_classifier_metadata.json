@@ -1,0 +1,86 @@
+{
+    "model_name": "TF-IDF + Logistic Regression Requirement Classifier",
+    "dataset_name": "ARIP_requirement_classification_FINAL_4000_dataset(1).csv",
+    "training_timestamp": "2026-09-24 00:37:01",
+    "random_state": 42,
+    "input_feature": "Sentence",
+    "target_label": "Requirement",
+    "classes": [
+        "NO",
+        "YES"
+    ],
+    "dataset_size": {
+        "total_samples": 4000,
+        "train_samples": 3200,
+        "val_samples": 400,
+        "test_samples": 400
+    },
+    "target_distribution": {
+        "NO": 2000,
+        "YES": 2000
+    },
+    "tfidf_configuration": {
+        "ngram_range": [
+            1,
+            2
+        ],
+        "sublinear_tf": true,
+        "min_df": 2,
+        "max_df": 0.95,
+        "max_features": 2500
+    },
+    "classifier_configuration": {
+        "algorithm": "LogisticRegression",
+        "C": 2.0,
+        "max_iter": 1000,
+        "class_weight": "None"
+    },
+    "training_metrics": {
+        "accuracy": 0.9994,
+        "macro_f1": 0.9994,
+        "weighted_f1": 0.9994
+    },
+    "validation_metrics": {
+        "accuracy": 1.0,
+        "macro_f1": 1.0,
+        "weighted_f1": 1.0,
+        "confusion_matrix": [
+            [
+                200,
+                0
+            ],
+            [
+                0,
+                200
+            ]
+        ]
+    },
+    "test_metrics": {
+        "accuracy": 1.0,
+        "binary_precision": 1.0,
+        "binary_recall": 1.0,
+        "binary_f1": 1.0,
+        "macro_f1": 1.0,
+        "weighted_f1": 1.0,
+        "class_NO": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1_score": 1.0
+        },
+        "class_YES": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1_score": 1.0
+        },
+        "confusion_matrix": [
+            [
+                200,
+                0
+            ],
+            [
+                0,
+                200
+            ]
+        ]
+    }
+}

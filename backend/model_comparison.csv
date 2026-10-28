@@ -1,0 +1,11 @@
+Model,Features,Accuracy,Precision,Recall,F1,ROC_AUC,FP,FN,Training_Time,CV_F1
+Model 1: Baseline LogReg (C=2.0),"Word (1,2)",0.9752,0.9646,0.9868,0.9756,0.996,11,4,0.115,0.9876
+Model 2: LinearSVM (C=0.5),"Word (1,2)",0.9851,0.9743,0.9967,0.9854,0.9986,8,1,0.028,0.9909
+Model 3: Word+Char LogReg (C=4.0),"Word (1,2) + Char (3,5)",0.9868,0.9837,0.9901,0.9869,0.9987,5,3,0.461,0.9911
+Model 4: Word+Char LinearSVM (C=0.25),"Word (1,2) + Char (3,5)",0.9917,0.987,0.9967,0.9918,0.9994,4,1,0.198,0.9916
+Model 5: Multinomial Naive Bayes (alpha=0.1),"Word (1,2)",0.967,0.9465,0.9901,0.9678,0.9953,17,3,0.01,0.9667
+Model 6: SGDClassifier (modified_huber),"Word (1,2)",0.9868,0.9774,0.9967,0.987,0.9994,7,1,0.023,0.9907
+Model 7: Random Forest (n_est=200),"Word (1,2)",0.9422,0.9353,0.9507,0.9429,0.9845,20,15,5.282,0.9533
+Model 8: Calibrated LinearSVM,"Word (1,2)",0.9835,0.9712,0.9967,0.9838,0.9977,9,1,0.167,0.9893
+Model 9: Word+Char Calibrated LinearSVM,"Word (1,2) + Char (3,5)",0.9868,0.9805,0.9934,0.9869,0.9986,6,2,0.619,0.9912
+Model 10: Best Soft Ensemble (LogReg + CalibSVM),"Word (1,2) + Char (3,5) Fusion",0.9868,0.9805,0.9934,0.9869,0.9987,6,2,1.08,0.9911

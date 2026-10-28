@@ -1,0 +1,194 @@
+{
+    "model_name": "ARIP Phase 14 Ambiguity Classifier",
+    "pipeline": "TF-IDF + LogisticRegression",
+    "random_seed": 42,
+    "dataset_summary": {
+        "total_raw_combined": 6058,
+        "master_unique_samples": 6058,
+        "train_samples": 4846,
+        "val_samples": 606,
+        "test_samples": 606,
+        "class_distribution": {
+            "Clear": 3017,
+            "Ambiguous": 3041
+        }
+    },
+    "tfidf_hyperparameters": {
+        "ngram_range": [
+            1,
+            2
+        ],
+        "sublinear_tf": true,
+        "min_df": 2,
+        "max_df": 0.95,
+        "max_features": 5000,
+        "vocabulary_size": 5000
+    },
+    "classifier_hyperparameters": {
+        "C": 2.0,
+        "max_iter": 1000,
+        "solver": "lbfgs",
+        "random_state": 42
+    },
+    "performance_metrics": {
+        "train": {
+            "accuracy": 0.9957,
+            "precision": 0.9971,
+            "recall": 0.9942,
+            "f1_score": 0.9957,
+            "confusion_matrix": [
+                [
+                    2406,
+                    7
+                ],
+                [
+                    14,
+                    2419
+                ]
+            ],
+            "classification_report": {
+                "Clear": {
+                    "precision": 0.9942148760330578,
+                    "recall": 0.9970990468296727,
+                    "f1-score": 0.9956548727498448,
+                    "support": 2413.0
+                },
+                "Ambiguous": {
+                    "precision": 0.9971145919208574,
+                    "recall": 0.9942457870941225,
+                    "f1-score": 0.9956781230705907,
+                    "support": 2433.0
+                },
+                "accuracy": 0.9956665290961618,
+                "macro avg": {
+                    "precision": 0.9956647339769575,
+                    "recall": 0.9956724169618976,
+                    "f1-score": 0.9956664979102177,
+                    "support": 4846.0
+                },
+                "weighted avg": {
+                    "precision": 0.9956707177076382,
+                    "recall": 0.9956665290961618,
+                    "f1-score": 0.9956665458885932,
+                    "support": 4846.0
+                }
+            }
+        },
+        "validation": {
+            "accuracy": 0.9802,
+            "precision": 0.9771,
+            "recall": 0.9836,
+            "f1_score": 0.9803,
+            "confusion_matrix": [
+                [
+                    295,
+                    7
+                ],
+                [
+                    5,
+                    299
+                ]
+            ],
+            "classification_report": {
+                "Clear": {
+                    "precision": 0.9833333333333333,
+                    "recall": 0.9768211920529801,
+                    "f1-score": 0.9800664451827242,
+                    "support": 302.0
+                },
+                "Ambiguous": {
+                    "precision": 0.9771241830065359,
+                    "recall": 0.9835526315789473,
+                    "f1-score": 0.980327868852459,
+                    "support": 304.0
+                },
+                "accuracy": 0.9801980198019802,
+                "macro avg": {
+                    "precision": 0.9802287581699346,
+                    "recall": 0.9801869118159637,
+                    "f1-score": 0.9801971570175916,
+                    "support": 606.0
+                },
+                "weighted avg": {
+                    "precision": 0.980218512047283,
+                    "recall": 0.9801980198019802,
+                    "f1-score": 0.980197588409786,
+                    "support": 606.0
+                }
+            }
+        },
+        "test": {
+            "accuracy": 0.9752,
+            "precision": 0.9646,
+            "recall": 0.9868,
+            "f1_score": 0.9756,
+            "confusion_matrix": [
+                [
+                    291,
+                    11
+                ],
+                [
+                    4,
+                    300
+                ]
+            ],
+            "classification_report": {
+                "Clear": {
+                    "precision": 0.9864406779661017,
+                    "recall": 0.9635761589403974,
+                    "f1-score": 0.9748743718592965,
+                    "support": 302.0
+                },
+                "Ambiguous": {
+                    "precision": 0.9646302250803859,
+                    "recall": 0.9868421052631579,
+                    "f1-score": 0.975609756097561,
+                    "support": 304.0
+                },
+                "accuracy": 0.9752475247524752,
+                "macro avg": {
+                    "precision": 0.9755354515232437,
+                    "recall": 0.9752091321017776,
+                    "f1-score": 0.9752420639784287,
+                    "support": 606.0
+                },
+                "weighted avg": {
+                    "precision": 0.9754994606768977,
+                    "recall": 0.9752475247524752,
+                    "f1-score": 0.9752432774837724,
+                    "support": 606.0
+                }
+            }
+        }
+    },
+    "unseen_manual_tests": [
+        {
+            "text": "The system shall process user authentication within 500ms under maximum peak load.",
+            "expected": "Clear",
+            "predicted": "Clear",
+            "confidence": "60%",
+            "correct": true
+        },
+        {
+            "text": "The interface should be user-friendly, elegant, fast, and respond appropriately.",
+            "expected": "Ambiguous",
+            "predicted": "Ambiguous",
+            "confidence": "100%",
+            "correct": true
+        },
+        {
+            "text": "The database server shall retain transaction logs for exactly 90 days before archiving.",
+            "expected": "Clear",
+            "predicted": "Clear",
+            "confidence": "98%",
+            "correct": true
+        },
+        {
+            "text": "The system shall handle errors gracefully and provide reasonable feedback as needed.",
+            "expected": "Ambiguous",
+            "predicted": "Ambiguous",
+            "confidence": "91%",
+            "correct": true
+        }
+    ]
+}

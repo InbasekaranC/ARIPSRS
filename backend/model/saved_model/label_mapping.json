@@ -1,0 +1,10 @@
+{
+    "label2id": {
+        "Clear": 0,
+        "Ambiguous": 1
+    },
+    "id2label": {
+        "0": "Clear",
+        "1": "Ambiguous"
+    }
+}

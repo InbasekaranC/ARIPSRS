@@ -1,0 +1,607 @@
+Requirement,Label,Ambiguity_Type,Domain,Source
+The route search service shall return matching routes within 2 seconds.,Clear,,Transportation,Synthetic
+Station managers shall be able to update platform assignments for delayed trains.,Clear,,Railway,Original
+The system shall calculate the average product rating based on all submitted reviews.,Clear,,E-Commerce,Original
+The logistics platform shall notify users when shipment creation fails.,Ambiguous,Incomplete Information,Logistics,Phase1_Domain_Expansion
+"The customer support portal shall assign incoming tickets to available agents within 2 minutes,",Clear,,E-Commerce,Phase8_Noise_Robustness
+The system shall The reporting dashboard shall look polished to the executive board.,Ambiguous,Incomplete Information,General Software,Phase6_Complexity_Expansion
+The application shall allow the administrator to export the report in PDF format.,Clear,,General Software,Phase2_Requirement_Type_Expansion
+The Hospital Management system shall provide high performance when processing records.,Ambiguous,Non-measurable Requirement,Hospital Management,Phase4_Domain_Ambiguity_Matrix
+The aviation management system shall permit the authorized user to cancel the flight record before it is processed.,Ambiguous,Incomplete Information,Aviation,Phase 9 - Cross-Domain Adversarial
+The travel and hospitality system shall maintain the latest booking request for each applicable record.,Ambiguous,Lexical Ambiguity,Travel & Hospitality,Phase4_Domain_Ambiguity_Matrix
+The healthcare management system may permit the patient to cancel the patient record.,Ambiguous,Weak/Optional Wording,Healthcare,Phase 14 - Subtle Ambiguity Contrastive
+The system shall notify the manager when the request is approved.,Ambiguous,Incomplete Information,General Software,Original
+The platform shall ensure that customer can The banking system shall store the creation timestamp for every transactions record.,Clear,,Banking,Phase5_Linguistic_Diversity
+The telecommunications system shall accept only numeric values in fields defined as numeric.,Clear,,Telecommunications,Phase2_Requirement_Type_Expansion
+The logistics management system shall approve the shipment.,Ambiguous,Incomplete Information,Logistics,Phase 14 - Subtle Ambiguity Contrastive
+The telecommunications system shall send timely notifications about subscriber records.,Ambiguous,Vague Wording,Telecommunications,Phase2_Requirement_Type_Expansion
+The logistics management system shall retain the shipment record for 365 days.,Clear,,Logistics,Phase 9 - Cross-Domain Adversarial
+The authentication service shall require users to change their password every 90 days.,Clear,,General Software,Original
+The system shall complete a full database backup within a 2.5-hour weekly maintenance window.,Clear,,General Software,Original
+The manufacturing management system shall generate the production order within 5 seconds.,Clear,,Manufacturing,Phase 9 - Cross-Domain Adversarial
+The emergency management system shall update it after the request is submitted.,Ambiguous,Undefined Reference/Pronoun,Emergency Management,Phase7_Hard_Negative_Contrastive
+The system shall The energy management system shall notify the grid operator when consumption analysis is completed when the request is received.,Clear,,Energy,Phase6_Complexity_Expansion
+The system shall restrict file downloads to 100MB per user per hour.,Clear,,General Software,Original
+The software shall be maintainable enough for future changes.,Ambiguous,Vague Wording,Aerospace / Software Engineering,Phase 9 - Source-derived | NASA Software Engineering Handbook / NPR 7150.2
+Customer support agents shall be able to close a support ticket after resolution confirmation.,Clear,,Railway,Original
+The system should perform consistently across different browsers.,Ambiguous,Weak/Optional Wording,General Software,Original
+The aviation management system shall retain the previous value when crew schedules is updated.,Clear,,Aviation,Phase1_Domain_Expansion
+The food delivery platform shall record failed authentication attempts for audit purposes.,Clear,,Food Delivery,Phase1_Domain_Expansion
+The system shall apply exponential backoff retries for failed shipment tracking API calls.,Clear,,Inventory,Original
+Users shall be able to The payroll system shall send an email to the affected employee when an approved salary change is applied.,Clear,,Payroll,Phase5_Linguistic_Diversity
+The system shall Librarians shall be able to blacklist a member after 3 unreturned books whenever the required information becomes available.,Clear,,General Software,Phase5_Linguistic_Diversity
+The manufacturing management system shall generate a useful report for the production order.,Ambiguous,Subjective Wording,Manufacturing,Phase 9 - Structured-real-world | Original requirement patterned after real-world SRS structure
+The HR portal shall allow employees to apply for leave up to 90 days in advance.,Clear,,General Software,Original
+The aviation management system shall restrict crew assignment to authenticated users with the required role.,Clear,,Aviation,Phase1_Domain_Expansion
+The telecommunications management system shall restrict modification of service request to authenticated network operator.,Clear,,Telecommunications,Phase 9 - Structured-real-world | Original requirement patterned after real-world SRS structure
+The reporting dashboard shall be fast enough for real-time monitoring.,Ambiguous,Vague Wording,General Software,Original
+The platform shall ensure reliable processing of application.,Ambiguous,Non-measurable Requirement,General Software,Phase5_Linguistic_Diversity
+The automotive management system shall allow the authorized user to approve the vehicle record.,Clear,,Automotive,Phase 9 - Cross-Domain Adversarial
+The platform shall display this information.,Ambiguous,Undefined Reference/Pronoun,General Software,Phase6_Complexity_Expansion
+The construction management system shall allow the authorized user to approve it.,Ambiguous,Undefined Reference/Pronoun,Construction,Phase 9 - Cross-Domain Adversarial
+The Employee should minimize delays during registration.,Ambiguous,Weak/Optional Wording,Payroll,Original
+The application shall The module shall retain the reservation record after the guest completes check-out.,Clear,,Hotel Management,Phase6_Complexity_Expansion
+The platform must The service shall require an authenticated customer session before displaying saved payment methods before the request is received.,Clear,,E-Commerce,Phase6_Complexity_Expansion
+The Patient shall allow users to reset passwords via email while processing payments.,Clear,,Healthcare,Original
+The system shall apply a discount code at checkout if the code is valid and unexpired whenever the required information becomes available.,Clear,,E-Commerce,Phase5_Linguistic_Diversity
+The system might send reminder notifications to patients.,Ambiguous,Weak/Optional Wording,General Software,Original
+The User should minimize delays during checkout.,Ambiguous,Weak/Optional Wording,E-Commerce,Original
+The e-commerce management system shall calculate the penalty.,Ambiguous,Incomplete Information,E-Commerce,Phase 14 - Subtle Ambiguity Contrastive
+The application should leave a favorable impression on new students.,Ambiguous,Weak/Optional Wording,General Software,Original
+System shall calculate a customer's credit score eligibility before approving a personal loan.,Clear,,Banking,Phase8_Noise_Robustness
+The system shall update the schedule.,Ambiguous,Incomplete Information,General Software,Original
+The college management system shall record the approved transaction with transaction reference COL-028.,Clear,,College Management,Phase12_Targeted_Balancing
+The travel and hospitality system shall present reservation record in a user-friendly format.,Ambiguous,Subjective Wording,Travel & Hospitality,Phase4_Domain_Ambiguity_Matrix
+The government service system shall generate a monthly report containing all service requests created during the selected month.,Clear,,Government Services,Phase2_Requirement_Type_Expansion
+The railway management system shall notify the passenger through email when the request is submitted.,Clear,,Railway,Phase7_Hard_Negative_Contrastive
+The agriculture management system should allow the farmer to validate the submitted record.,Ambiguous,Weak/Optional Wording,Agriculture,Phase7_Hard_Negative_Contrastive
+The application shall be compatible with screen readers such as JAWS and NVDA.,Clear,,General Software,Original
+The platform shall display this information after the operation is completed.,Ambiguous,Undefined Reference/Pronoun,Emergency Management,Phase6_Complexity_Expansion
+The logistics management system shall restrict modification of shipment to authenticated dispatcher.,Clear,,Logistics,Phase 9 - Structured-real-world | Original requirement patterned after real-world SRS structure
+The requirements shall contain sufficient information for implementation.,Ambiguous,Incomplete Information,Aerospace / Software Engineering,Phase 9 - Source-derived | NASA Software Engineering Handbook / NPR 7150.2
+The food delivery platform shall provide sufficient capacity for orders.,Ambiguous,Non-measurable Requirement,Food Delivery,Phase1_Domain_Expansion
+The telecommunications system shall provide strong protection for subscriber records.,Ambiguous,Vague Wording,Telecommunications,Phase2_Requirement_Type_Expansion
+Doctors shall be able to prescribe medication electronically through the prescription module.,Clear,,Healthcare,Original
+The university management management system shall allow the authorized user to approve it.,Ambiguous,Undefined Reference/Pronoun,University Management,Phase 9 - Cross-Domain Adversarial
+The system shall validate uploaded resumes to accept only files under 3 MB in PDF or DOCX format.,Clear,,General Software,Original
+Users shall be able to The online examination system shall allow authorized users to create and update exam sessions after the user submits the request.,Clear,,Online Examination,Phase6_Complexity_Expansion
+The service shall format dates in ISO 8601 format (YYYY-MM-DD) across all API endpoints.,Clear,,General Software,Augmented
+The application shall restore the cart contents when checkout fails before order confirmation.,Clear,,E-Commerce,Synthetic
+"After the operation is completed, the platform shall The application shall export the selected inventory records as a CSV file, notify the user, and store the resulting application.",Clear,,Inventory,Phase6_Complexity_Expansion
+Nurses may be permitted to log observations via voice input.,Ambiguous,Weak/Optional Wording,General Software,Original
+The bed-availability search shall provide results within 2 seconds.,Clear,,Hospital Management,Augmented
+The system shall update the current record when the required information becomes available.,Ambiguous,Lexical Ambiguity,General Software,Phase6_Complexity_Expansion
+The emergency management system should support incident record when required.,Ambiguous,Weak/Optional Wording,Emergency Management,Phase4_Domain_Ambiguity_Matrix
+The application shall allow a customer to apply store credit toward a future purchase.,Clear,,Banking,Original
+The Hotel Management system is expected to The room-availability search shall return results within 2 seconds.,Clear,,Hotel Management,Phase5_Linguistic_Diversity
+The Payroll system shall send it to the responsible user after status is submitted.,Ambiguous,Undefined Reference/Pronoun,Payroll,Phase4_Domain_Ambiguity_Matrix
+The student management system shall retain completed transaction records for five years.,Clear,,Student Management,Phase12_Targeted_Balancing
+The Government Services system shall send a notification for records.,Ambiguous,Incomplete Information,Government Services,Phase4_Domain_Ambiguity_Matrix
+The Administrator should be secure during registration.,Ambiguous,Non-measurable Requirement,General Software,Original
+The transport system shall notify drivers about route changes.,Ambiguous,Incomplete Information,Transportation,Synthetic
+The construction project system shall maintain separate access permissions for administrators and operational users.,Clear,,Construction,Phase1_Domain_Expansion
+The government service system shall deny access to service requests when the user does not have the required role.,Clear,,Government Services,Phase2_Requirement_Type_Expansion
+"The reporting module shall allow export of reports in PDF, CSV, and XLSX formats.",Clear,,General Software,Original
+The reporting module shall generate a dropout rate report broken down by department.,Clear,,Student Management,Original
+The Hospital Management system shall send a notification for records.,Ambiguous,Incomplete Information,Hospital Management,Phase4_Domain_Ambiguity_Matrix
+The e-commerce platform shall update the latest approved order record.,Clear,,E-Commerce,Phase7_Hard_Negative_Contrastive
+The automotive system shall retry a failed vehicle records submission up to 3 times before recording an error.,Clear,,Automotive,Phase2_Requirement_Type_Expansion
+The application shall close the session when the user leaves the page.,Ambiguous,Lexical Ambiguity,General Software,Original
+The system shall display search results paginated at 20 items per page.,Clear,,General Software,Original
+The system shall restore the room to available status when a cancellation is successfully completed.,Clear,,Hotel Management,Synthetic
+The government services system shall generate a PDF report for approved request records.,Clear,,Government Services,Phase12_Targeted_Balancing
+The transportation system shall record the timestamp for every transaction transaction.,Clear,,Transportation,Phase12_Targeted_Balancing
+The system shall complete indexing of a newly added product listing within 20 seconds.,Clear,,E-Commerce,Original
+The application shall make service easy to understand.,Ambiguous,Subjective Wording,Inventory,Phase5_Linguistic_Diversity
+The system is required to The messaging service shall encrypt messages during transmission between clients and servers.,Clear,,Communication Systems,Phase5_Linguistic_Diversity
+The construction management system shall update the latest approved inspection record.,Clear,,Construction,Phase7_Hard_Negative_Contrastive
+The banking system shall provide account services to authenticated users.,Clear,,Banking,Phase 9 - Source-derived | Public Banking Management System SRS example
+The automotive system shall prevent duplicate records when the same unique identifier is submitted.,Clear,,Automotive,Phase2_Requirement_Type_Expansion
+The travel and hospitality system shall update it after the user confirms reservation record.,Ambiguous,Undefined Reference/Pronoun,Travel & Hospitality,Phase4_Domain_Ambiguity_Matrix
+Users shall be able to The application shall reject a transfer when the destination account number fails the configured format validation after the required information becomes available.,Clear,,Banking,Phase6_Complexity_Expansion
+The telecommunications management system shall apply the discount.,Ambiguous,Incomplete Information,Telecommunications,Phase 14 - Subtle Ambiguity Contrastive
+The system shall The telecommunications service shall store service plans for each registered telecommunications whenever the required information becomes available.,Clear,,Telecommunications,Phase5_Linguistic_Diversity
+"The platform must When the required information becomes available, agent can The insurance system shall import claim records from the configured external system once every hour before the user submits the request.",Clear,,Insurance,Phase6_Complexity_Expansion
+The insurance policy shall record the date and time of each claim submission.,Clear,,Insurance,Phase1_Domain_Expansion
+The reporting module shall prepare the analysis.,Ambiguous,Incomplete Information,General Software,Original
+The platform shall prevent prescribing a medication listed under a patient's known allergies.,Clear,,Healthcare,Augmented
+The energy management system may notify the energy analyst about important changes.,Ambiguous,Weak/Optional Wording,Energy,Phase1_Domain_Expansion
+The university management system shall generate a PDF fee receipt after successful payment.,Clear,,University Management,Phase12_Targeted_Balancing
+The inventory system shall allow only the inventory administrator to delete stock records.,Clear,,Inventory,Phase2_Requirement_Type_Expansion
+Students shall be able to reserve a book that is currently checked out by another member.,Clear,,Library Management,Original
+The learning platform shall load course content efficiently.,Ambiguous,Vague Wording,Education,Synthetic
+The Student shall store audit logs for 90 days during report generation.,Clear,,E-Commerce,Original
+The Hospital Management system shall present records in a user-friendly format.,Ambiguous,Subjective Wording,Hospital Management,Phase4_Domain_Ambiguity_Matrix
+The emergency management system shall provide sufficient capacity for incident records.,Ambiguous,Non-measurable Requirement,Emergency Management,Phase1_Domain_Expansion
+The system shall move the file to the appropriate folder after processing.,Ambiguous,Subjective Wording,General Software,Original
+Station staff shall be able to log lost-and-found items with a description and date found.,Clear,,Railway,Original
+The system shall execute night cron jobs between 01:00 and 04:00 local time.,Clear,,General Software,Original
+The reporting module shall support version history for the last 10 generated reports.,Clear,,General Software,Original
+The college management system shall display the current status of each transaction.,Clear,,College Management,Phase12_Targeted_Balancing
+The Communication Systems system shall provide high performance when processing records.,Ambiguous,Non-measurable Requirement,Communication Systems,Phase4_Domain_Ambiguity_Matrix
+The logistics system shall send each approved shipment records record to the configured external service using HTTPS.,Clear,,Logistics,Phase2_Requirement_Type_Expansion
+The e-commerce management system shall retain the order record for a sufficient period.,Ambiguous,Incomplete Information,E-Commerce,Phase 9 - Cross-Domain Adversarial
+The system shall calculate compound interest on a savings account on a monthly basis.,Clear,,Banking,Original
+The Customer shall send confirmation emails after registration during data synchronization.,Clear,,E-Commerce,Original
+"The manufacturing management system shall show the production order status as Pending, Approved, or Rejected.",Clear,,Manufacturing,Phase 9 - Cross-Domain Adversarial
+AES-256 encryption shall be used by the education management system to store the student record.,Clear,,Education,Phase 10 - Semantic Invariance
+The college management system shall record the responsible user identifier for each service update.,Clear,,College Management,Phase12_Targeted_Balancing
+The railway system shall allow the passengers to view their train schedules.,Clear,,Railway,Phase2_Requirement_Type_Expansion
+The logistics management system shall show the shipment record status appropriately.,Ambiguous,Subjective Wording,Logistics,Phase 9 - Cross-Domain Adversarial
+The reporting module shall mask patient names in exported research datasets.,Clear,,Healthcare,Original
+Dates should be formatted nicely and standardly throughout the app.,Ambiguous,Weak/Optional Wording,General Software,Original
+The platform shall limit search query text to a maximum of 250 characters.,Clear,,General Software,Augmented
+The student management system may restrict access to sensitive student profiles for some users.,Ambiguous,Weak/Optional Wording,Student Management,Phase2_Requirement_Type_Expansion
+The booking service shall notify passengers of a platform change at least 10 minutes before departure.,Clear,,Railway,Original
+The inventory system shall assign a unique identifier to each record.,Clear,,Inventory,Phase12_Targeted_Balancing
+The logistics management system shall update the shipment record identified by the submitted identifier.,Clear,,Logistics,Phase7_Hard_Negative_Contrastive
+The manufacturing system may restrict access to sensitive production orders for some users.,Ambiguous,Weak/Optional Wording,Manufacturing,Phase2_Requirement_Type_Expansion
+System shall The Patient shall allow users to reset passwords via email during report generation,Clear,,Healthcare,Phase8_Noise_Robustness
+The hotel management system shall provide a clear report of reservation records.,Ambiguous,Subjective Wording,Hotel Management,Phase2_Requirement_Type_Expansion
+The Inventory system shall maintain the latest requests for each applicable record.,Ambiguous,Lexical Ambiguity,Inventory,Phase4_Domain_Ambiguity_Matrix
+"The platform shall allow users to filter products by price, brand, rating, and availability.",Clear,,Railway,Original
+The system shall issue JWT tokens with a 60-minute expiration timeframe.,Clear,,General Software,Original
+The logistics management system shall apply the discount.,Ambiguous,Incomplete Information,Logistics,Phase 14 - Subtle Ambiguity Contrastive
+The reporting module shall generate a monthly on-time performance report for each train route.,Clear,,Railway,Original
+The aerospace software system shall assign a unique identifier to each configuration item.,Clear,,Aerospace / Software Engineering,Phase12_Targeted_Balancing
+Exporting data to Excel should be fast and handle large files easily.,Ambiguous,Vague Wording,General Software,Original
+The system shall seem contemporary compared to the previous portal.,Ambiguous,Incomplete Information,General Software,Original
+The messaging service shall notify users about new messages.,Ambiguous,Incomplete Information,Communication Systems,Synthetic
+The system shall support up to 10000 concurrent active users with response times under 500ms.,Clear,,General Software,Original
+The food delivery management system shall retain the delivery order for a sufficient period.,Ambiguous,Incomplete Information,Food Delivery,Phase 9 - Cross-Domain Adversarial
+The system shall generate a delivery confirmation with the recipient's signature timestamp.,Clear,,Transportation,Original
+The hospital management system shall process appointment record within 5 seconds.,Clear,,Hospital Management,Phase7_Hard_Negative_Contrastive
+"The system shall The application shall allow a customer to change their delivery address before the order is shipped; if the previous transaction is complete, it shall also update the order.",Clear,,E-Commerce,Phase6_Complexity_Expansion
+The Bank should provide a better user experience while updating records.,Ambiguous,Incomplete Information,Banking,Original
+The emergency management system shall deny access to incident records when the user does not have the required role.,Clear,,Emergency Management,Phase2_Requirement_Type_Expansion
+The system shall Cart items should be held for a sufficient duration during payment efficiently.,Ambiguous,Vague Wording,Banking,Phase5_Linguistic_Diversity
+"The telecommunications management system shall generate the service request report containing the transaction ID, date, amount, and status.",Clear,,Telecommunications,Phase 14 - Subtle Ambiguity Contrastive
+The construction system shall synchronize project records with the external system.,Ambiguous,Incomplete Information,Construction,Phase2_Requirement_Type_Expansion
+The government services system shall record the timestamp for every transaction transaction.,Clear,,Government Services,Phase12_Targeted_Balancing
+The railway management system may permit the passenger to cancel the ticket.,Ambiguous,Weak/Optional Wording,Railway,Phase 14 - Subtle Ambiguity Contrastive
+The agriculture management system shall allow the authorized user to approve it.,Ambiguous,Undefined Reference/Pronoun,Agriculture,Phase 9 - Cross-Domain Adversarial
+The aviation management system shall display this information when the user opens aircraft status.,Ambiguous,Undefined Reference/Pronoun,Aviation,Phase4_Domain_Ambiguity_Matrix
+The IoT monitoring system shall raise an alarm if water level sensor drops below 15% capacity.,Clear,,General Software,Original
+The project shall capture stakeholder input used to establish software requirements.,Clear,,Aerospace / Software Engineering,Phase 9 - Source-derived | NASA Software Engineering Handbook / NPR 7150.2
+The healthcare management system shall update the patient record identified by the submitted identifier.,Clear,,Healthcare,Phase7_Hard_Negative_Contrastive
+The railway management system shall reserve the ticket only when the requested date has available capacity.,Clear,,Railway,Phase 14 - Subtle Ambiguity Contrastive
+The system shall calculate a replacement cost for a lost book based on its listed price.,Clear,,Library Management,Original
+The automotive service system shall update the latest approved service record.,Clear,,Automotive,Phase7_Hard_Negative_Contrastive
+The application shall generate an experience certificate upon an employee's resignation approval.,Clear,,Payroll,Original
+The university management system shall support result processing for registered users.,Clear,,University Management,Phase1_Domain_Expansion
+The manufacturing management system shall process production record quickly.,Ambiguous,Vague Wording,Manufacturing,Phase4_Domain_Ambiguity_Matrix
+The insurance management system shall maintain the latest claim request for each applicable record.,Ambiguous,Lexical Ambiguity,Insurance,Phase4_Domain_Ambiguity_Matrix
+The online examination system shall update the latest approved exam result.,Clear,,Online Examination,Phase7_Hard_Negative_Contrastive
+The travel booking platform shall provide sufficient capacity for reservations.,Ambiguous,Non-measurable Requirement,Travel & Hospitality,Phase1_Domain_Expansion
+The Hospital Management system shall provide an easy-to-use interface for requests.,Ambiguous,Subjective Wording,Hospital Management,Phase4_Domain_Ambiguity_Matrix
+The system shall provide a user-friendly request.,Ambiguous,Subjective Wording,Food Delivery,Phase6_Complexity_Expansion
+AES-256 encryption shall be used by the railway management system to store the ticket record.,Clear,,Railway,Phase 10 - Semantic Invariance
+The pharmacy management system shall process medicine record within 5 seconds.,Clear,,Pharmacy,Phase7_Hard_Negative_Contrastive
+"After completing the transaction, the agriculture management system shall generate a report.",Clear,,Agriculture,Phase 10 - Semantic Invariance
+The system shall support automatic scaling when request queue length exceeds 500 items.,Clear,,General Software,Original
+The telecommunications management system shall allow the subscriber to validate the submitted record.,Clear,,Telecommunications,Phase7_Hard_Negative_Contrastive
+The student management system shall prevent duplicate record identifiers.,Clear,,Student Management,Phase12_Targeted_Balancing
+"After completing the transaction, the telecommunications management system shall generate a report.",Clear,,Telecommunications,Phase 10 - Semantic Invariance
+The logistics platform shall provide an appropriate response during busy periods.,Ambiguous,Vague Wording,Logistics,Phase1_Domain_Expansion
+The Bank should work efficiently during appointment booking.,Ambiguous,Vague Wording,Banking,Original
+The citizen portal shall process applications without unnecessary delay.,Ambiguous,Vague Wording,Government Services,Synthetic
+The requirements shall be complete enough for verification.,Ambiguous,Vague Wording,Aerospace / Software Engineering,Phase 9 - Source-derived | NASA Software Engineering Handbook / NPR 7150.2
+The education management system shall allow the teacher to approve it.,Ambiguous,Undefined Reference/Pronoun,Education,Phase 10 - Semantic Invariance
+The system shall retain completed trip records for 12 months.,Clear,,Transportation,Synthetic
+The application shall The application shall require an authenticated customer session before displaying saved payment methods.,Clear,,E-Commerce,Phase6_Complexity_Expansion
+The automotive service platform shall record failed authentication attempts for audit purposes.,Clear,,Automotive,Phase1_Domain_Expansion
+The system shall generate an automatic restock order when inventory falls below the reorder threshold.,Clear,,E-Commerce,Original
+The banking management system shall display the transaction record appropriately.,Ambiguous,Subjective Wording,Banking,Phase 10 - Semantic Invariance
+The construction project system shall provide a user-friendly interface for site manager.,Ambiguous,Subjective Wording,Construction,Phase1_Domain_Expansion
+The education management system shall display the grade with a good response time.,Ambiguous,Subjective Wording,Education,Phase 14 - Subtle Ambiguity Contrastive
+The system shall be reasonably stable during exam registration periods.,Ambiguous,Incomplete Information,Education,Original
+The energy management system could notify users about maintenance schedule.,Ambiguous,Weak/Optional Wording,Energy,Phase4_Domain_Ambiguity_Matrix
+The insurance management system shall assign the claim to the policyholder responsible for that service region.,Clear,,Insurance,Phase 14 - Subtle Ambiguity Contrastive
+The healthcare management system shall send it to the responsible user after appointment record is submitted.,Ambiguous,Undefined Reference/Pronoun,Healthcare,Phase4_Domain_Ambiguity_Matrix
+The college management system shall export record records in CSV format.,Clear,,College Management,Phase12_Targeted_Balancing
+The Manager should provide appropriate notifications during appointment booking.,Ambiguous,Subjective Wording,General Software,Original
+The application shall forward the claim to the correct handler.,Ambiguous,Incomplete Information,General Software,Original
+The e-commerce management system shall assign the order to the appropriate customer.,Ambiguous,Vague Wording,E-Commerce,Phase 14 - Subtle Ambiguity Contrastive
+The online examination system shall update the candidate record after the user selects the current option.,Ambiguous,Lexical Ambiguity,Online Examination,Phase4_Domain_Ambiguity_Matrix
+System shall transfer the file to the designated location.,Ambiguous,Lexical Ambiguity,Banking,Phase8_Noise_Robustness
+The User should be easy to use during checkout.,Ambiguous,Subjective Wording,E-Commerce,Original
+The railway management system shall calculate the ticket.,Ambiguous,Incomplete Information,Railway,Phase 14 - Subtle Ambiguity Contrastive
+The banking system shall notify customers promptly about account activity.,Ambiguous,Non-measurable Requirement,Banking,Phase 9 - Source-derived | Public Banking Management System SRS example
+"The booking service shall handle a surge of 3,000 requests per minute during festival season without downtime.",Clear,,General Software,Original
+The banking system shall record changes to customer account information in an audit trail.,Clear,,Banking,Phase 9 - Source-derived | Public Banking Management System SRS example
+The railway management system shall retain the ticket record for 365 days.,Clear,,Railway,Phase 9 - Cross-Domain Adversarial
+The system shall use adequate computer resources.,Ambiguous,Vague Wording,Aerospace / Software Engineering,Phase 9 - Source-derived | NASA Software Engineering Handbook / NPR 7150.2
+The logistics management system shall calculate the penalty.,Ambiguous,Incomplete Information,Logistics,Phase 14 - Subtle Ambiguity Contrastive
+The insurance policy shall perform policy renewal efficiently.,Ambiguous,Non-measurable Requirement,Insurance,Phase1_Domain_Expansion
+The agriculture management system shall reject the crop record when necessary.,Ambiguous,Incomplete Information,Agriculture,Phase 9 - Structured-real-world | Original requirement patterned after real-world SRS structure
+The portal shall reject a file upload when its size exceeds 20 MB.,Clear,,Education,Synthetic
+The pharmacy system shall process the current medicine order.,Ambiguous,Lexical Ambiguity,Pharmacy,Phase3_Ambiguity_Category_Expansion
+The library system shall allow the members to view their book records.,Clear,,Library Management,Phase2_Requirement_Type_Expansion
+The module shall update the inventory.,Ambiguous,Incomplete Information,Inventory,Augmented
+The application shall process the refund,Ambiguous,Incomplete Information,General Software,Phase8_Noise_Robustness
+The agricultural management system shall update the service record when the status is changed.,Ambiguous,Lexical Ambiguity,Agriculture,Phase1_Domain_Expansion
+The construction project system shall return a confirmation after a successful task assignment.,Clear,,Construction,Phase1_Domain_Expansion
+The library management system shall update it after the user confirms book record.,Ambiguous,Undefined Reference/Pronoun,Library Management,Phase4_Domain_Ambiguity_Matrix
+The transportation system shall send each approved trip records record to the configured external service using HTTPS.,Clear,,Transportation,Phase2_Requirement_Type_Expansion
+The Platform should be secure during checkout.,Ambiguous,Non-measurable Requirement,Railway,Original
+The healthcare management system shall maintain appropriate records for each patient record.,Ambiguous,Vague Wording,Healthcare,Phase 9 - Structured-real-world | Original requirement patterned after real-world SRS structure
+The railway management system shall archive the ticket record after a reasonable period.,Ambiguous,Incomplete Information,Railway,Phase 10 - Semantic Invariance
+The application shall The application shall calculate the number of remaining leave days for each employee whenever the required information becomes available.,Clear,,Payroll,Phase6_Complexity_Expansion
+The food delivery management system shall retain the delivery order for 365 days.,Clear,,Food Delivery,Phase 9 - Cross-Domain Adversarial
+The logistics system shall generate comprehensive reports for the dispatcher.,Ambiguous,Non-measurable Requirement,Logistics,Phase2_Requirement_Type_Expansion
+The Student Management system shall maintain the latest requests for each applicable record.,Ambiguous,Lexical Ambiguity,Student Management,Phase4_Domain_Ambiguity_Matrix
+The system shall feel welcoming to new loan applicants.,Ambiguous,Incomplete Information,Banking,Original
+System shall The logistics management system shall provide high performance when processing shipment record,Ambiguous,Non-measurable Requirement,Logistics,Phase8_Noise_Robustness
+Citizen feedback should be addressed in a reasonable timeframe.,Ambiguous,Subjective Wording,Government Services,Original
+The system should perform reliably under moderate load.,Ambiguous,Vague Wording,General Software,Original
+The software shall satisfy all applicable safety needs.,Ambiguous,Vague Wording,Aerospace / Software Engineering,Phase 9 - Source-derived | NASA Software Engineering Handbook / NPR 7150.2
+Administrators shall be able to bulk-upload product listings using a CSV file.,Clear,,E-Commerce,Original
+The smart city platform shall return a confirmation after a successful incident registration.,Clear,,Smart City,Phase1_Domain_Expansion
+Uploaded images should be compressed effectively as needed.,Ambiguous,Weak/Optional Wording,General Software,Original
+The inventory system shall maintain at least 20 units of each configured essential item.,Clear,,Inventory,Synthetic
+The Library system should improve performance while processing payments.,Ambiguous,Incomplete Information,Library Management,Original
+The emergency management system shall process the latest response record.,Ambiguous,Lexical Ambiguity,Emergency Management,Phase3_Ambiguity_Category_Expansion
+The platform shall update the current request after the record is changed.,Ambiguous,Lexical Ambiguity,General Software,Phase5_Linguistic_Diversity
+The railway management system shall display booking record in a user-friendly format.,Ambiguous,Subjective Wording,Railway,Phase7_Hard_Negative_Contrastive
+The logistics management system shall notify the operator when the request is submitted,Ambiguous,Incomplete Information,Logistics,Phase8_Noise_Robustness
+The application shall be tested for accessibility using manual screen-reader walkthroughs.,Clear,,General Software,Original
+The system shall feel welcoming to first-time account holders.,Ambiguous,Lexical Ambiguity,General Software,Original
+The online examination system shall record failed authentication attempts for audit purposes.,Clear,,Online Examination,Phase1_Domain_Expansion
+The automotive service system shall update it after the request is submitted.,Ambiguous,Undefined Reference/Pronoun,Automotive,Phase7_Hard_Negative_Contrastive
+The library management system shall approve the loan.,Ambiguous,Incomplete Information,Library Management,Phase 14 - Subtle Ambiguity Contrastive
+The Software shall encrypt passwords using bcrypt during appointment booking.,Clear,,General Software,Original
+The system shall complete the change once the approval is granted for general software operations.,Ambiguous,Incomplete Information,General Software,Phase5_Linguistic_Diversity
+The agriculture management system shall update it after the request is submitted.,Ambiguous,Undefined Reference/Pronoun,Agriculture,Phase7_Hard_Negative_Contrastive
+The e-commerce platform shall notify the customer through email when the request is submitted.,Clear,,E-Commerce,Phase7_Hard_Negative_Contrastive
+The platform shall allow exporting transaction logs for custom date ranges up to 90 days.,Clear,,Banking,Original
+The college management system shall display the current status of each service.,Clear,,College Management,Phase12_Targeted_Balancing
+"The railway management system shall generate the ticket report containing the transaction ID, date, amount, and status.",Clear,,Railway,Phase 14 - Subtle Ambiguity Contrastive
+The travel and hospitality system may provide an option to manage booking request.,Ambiguous,Weak/Optional Wording,Travel & Hospitality,Phase4_Domain_Ambiguity_Matrix
+The system shall maintain automated test coverage of at least 65% for the reporting module.,Clear,,General Software,Original
+Users shall be able to The emergency management system shall retain the previous value when response teams is updated.,Clear,,Emergency Management,Phase5_Linguistic_Diversity
+The system shall release the reservation.,Ambiguous,Incomplete Information,Hotel Management,Original
+System shall The Application should be secure during file upload,Ambiguous,Non-measurable Requirement,General Software,Phase8_Noise_Robustness
+The Bank shall back up the database every 24 hours during file upload.,Clear,,Banking,Original
+The University Management system shall present records in a user-friendly format.,Ambiguous,Subjective Wording,University Management,Phase4_Domain_Ambiguity_Matrix
+The government services system shall display the current status of each record.,Clear,,Government Services,Phase12_Targeted_Balancing
+The construction project system shall store worker assignments for each registered construction.,Clear,,Construction,Phase1_Domain_Expansion
+The platform shall support file uploads up to 2GB via chunked multipart transfer.,Clear,,Banking,Original
+The transportation system shall update the current trip records record before saving it only,Ambiguous,Lexical Ambiguity,Transportation,Phase8_Noise_Robustness
+"The payment module shall support wallet top-ups in increments of $10, $25, or $50.",Clear,,Banking,Original
+The platform must The payment module shall authorize credit card transactions within 3 seconds of submission.,Clear,,Banking,Phase6_Complexity_Expansion
+The banking management system shall calculate the loan application.,Ambiguous,Incomplete Information,Banking,Phase 14 - Subtle Ambiguity Contrastive
+The database cluster shall replicate data across 3 geographical regions within 500ms latency.,Clear,,General Software,Original
+The university management system shall record the approval timestamp for each leave request.,Clear,,University Management,Phase12_Targeted_Balancing
+The authentication service shall expire a user session after 15 minutes of inactivity.,Clear,,General Software,Original
+The digital wallet shall process peer-to-peer transfers under $100 instantly.,Clear,,General Software,Original
+The system portal shall process the citizen record.,Ambiguous,Lexical Ambiguity,Government Services,Augmented
+The online examination system should allow the candidate to validate the submitted record.,Ambiguous,Weak/Optional Wording,Online Examination,Phase7_Hard_Negative_Contrastive
+The logistics platform shall update the service record when the status is changed.,Ambiguous,Lexical Ambiguity,Logistics,Phase1_Domain_Expansion
+The logistics platform shall generate a report containing warehouse requests for a selected period.,Clear,,Logistics,Phase1_Domain_Expansion
+"The automotive service system shall display service record using the specified fields vehicle ID, service date, and status.",Clear,,Automotive,Phase7_Hard_Negative_Contrastive
+A E-Commerce system shall provide the capability to allow users to reset passwords via email during checkout.,Clear,,E-Commerce,Phase5_Linguistic_Diversity
+"Within 10 seconds of a failed operation, the telecommunications management system shall notify the supervisor.",Clear,,Telecommunications,Phase 10 - Semantic Invariance
+The system shall terminate an idle librarian session after 12 minutes.,Clear,,General Software,Original
+The system shall process the order right after it is placed.,Ambiguous,Undefined Reference/Pronoun,E-Commerce,Original
+The agricultural management system shall provide an appropriate response during busy periods.,Ambiguous,Vague Wording,Agriculture,Phase1_Domain_Expansion
+The Hotel Management system shall send it to the responsible user after status is submitted.,Ambiguous,Undefined Reference/Pronoun,Hotel Management,Phase4_Domain_Ambiguity_Matrix
+The requirements shall be written clearly enough for everyone to understand.,Ambiguous,Subjective Wording,Aerospace / Software Engineering,Phase 9 - Source-derived | NASA Software Engineering Handbook / NPR 7150.2
+The emergency management system shall present incident record in a user-friendly format.,Ambiguous,Subjective Wording,Emergency Management,Phase4_Domain_Ambiguity_Matrix
+The application shall archive the record once it becomes inactive.,Ambiguous,Undefined Reference/Pronoun,General Software,Original
+The Customer should improve performance duing registration.,Ambiguous,Incomplete Information,E-Commerce,Phase8_Noise_Robustness
+The trip shall be closed after it is completed.,Ambiguous,Undefined Reference/Pronoun,Transportation,Synthetic
+The payroll system shall reliably process salary records.,Ambiguous,Vague Wording,Payroll,Phase2_Requirement_Type_Expansion
+The database cluster shall replicate data across 3 geographical regions within 500ms latency only,Clear,,General Software,Phase8_Noise_Robustness
+The application shall send a notification to the user.,Ambiguous,Incomplete Information,Communication Systems,Augmented
+The application shall lockout any account after 5 consecutive failed login attempts within 10 minutes.,Clear,,General Software,Original
+The system shall check the status.,Ambiguous,Incomplete Information,General Software,Original
+The platform shall update the current record after the record is changed for construction operations.,Ambiguous,Lexical Ambiguity,Construction,Phase5_Linguistic_Diversity
+The agriculture management system shall calculate the crop record using the approved rate table.,Clear,,Agriculture,Phase 14 - Subtle Ambiguity Contrastive
+The university system shall lock an account after 5 consecutive failed authentication attempts.,Clear,,University Management,Phase2_Requirement_Type_Expansion
+The system shall issue a 401 Unauthorized response when an invalid bearer token is provided.,Clear,,General Software,Original
+The checkout flow should feel seamless to first-time buyers.,Ambiguous,Subjective Wording,E-Commerce,Original
+The library system shall provide at least 99 percent availability during library operating hours.,Clear,,Library Management,Phase 9 - Source-derived | Public Library Management System SRS example
+"Within 5 seconds, the manufacturing management system shall process the production order.",Clear,,Manufacturing,Phase 10 - Semantic Invariance
+The booking service shall hold a reserved seat for 10 minutes pending payment confirmation.,Clear,,Banking,Original
+The smart city management system shall generate the service request within 5 seconds.,Clear,,Smart City,Phase 9 - Cross-Domain Adversarial
+"If the operation is completed and the previous transaction is complete, the system shall The digital wallet shall process peer-to-peer transfers under $100 instantly while preserving the existing request.",Clear,,General Software,Phase6_Complexity_Expansion
+The system shall provide a downloadable PDF copy of the student's semester report.,Clear,,Student Management,Synthetic
+The library management system shall display the loan record within 2 seconds.,Clear,,Library Management,Phase 10 - Semantic Invariance
+Suspicious IP traffic should be blocked effectively and quickly.,Ambiguous,Vague Wording,General Software,Original
+"Upon the operation is completed, the system shall The User shall complete operation within 4 seconds during during report generation.",Clear,,General Software,Phase5_Linguistic_Diversity
+The application shall render PDF previews within 2 seconds for files under 20MB.,Clear,,General Software,Original
+The pharmacy management system shall reject a prescription record when the required identifier is missing.,Clear,,Pharmacy,Phase 9 - Cross-Domain Adversarial
+The agriculture management system shall allow the farmer to validate the submitted record.,Clear,,Agriculture,Phase7_Hard_Negative_Contrastive
+The hospital service shall encrypt patient records during transmission.,Clear,,Hospital Management,Synthetic
+The telecommunications management system shall respond within 2 seconds for 95% of requests under the stated load.,Clear,,Telecommunications,Phase 14 - Subtle Ambiguity Contrastive
+The telecommunications management system shall calculate the service request using the rate applicable to the subscriber's category.,Clear,,Telecommunications,Phase 14 - Subtle Ambiguity Contrastive
+The system shall calculate the interest.,Ambiguous,Incomplete Information,Banking,Original
+The agricultural system may restrict access to sensitive crop records for some users.,Ambiguous,Weak/Optional Wording,Agriculture,Phase2_Requirement_Type_Expansion
+The application shall complete the update once the check is done.,Ambiguous,Incomplete Information,General Software,Augmented
+The university management management system shall generate the student record quickly.,Ambiguous,Non-measurable Requirement,University Management,Phase 9 - Cross-Domain Adversarial
+The hotel management system shall record guest check-in and check-out timestamps.,Clear,,Hotel Management,Phase12_Targeted_Balancing
+The reporting module shall support real-time data refresh every 30 seconds on live dashboards.,Clear,,General Software,Original
+"The agriculture management system shall display crop record using the specified fields crop name, field ID, and season.",Clear,,Agriculture,Phase7_Hard_Negative_Contrastive
+System shall The Inventory system shall update the records after the user selects the current option,Ambiguous,Lexical Ambiguity,Inventory,Phase8_Noise_Robustness
+The hotel system should offer reservation cancellation.,Ambiguous,Weak/Optional Wording,Hotel Management,Augmented
+The library system shall protect patron information adequately.,Ambiguous,Vague Wording,Library Management,Phase 9 - Source-derived | Public Library Management System SRS example
+The emergency management system shall provide an appropriate response during busy periods.,Ambiguous,Vague Wording,Emergency Management,Phase1_Domain_Expansion
+Users shall be able to The railway system shall return search results within 2 seconds for requests containing a valid identifier after the user submits the request.,Clear,,Railway,Phase6_Complexity_Expansion
+The university management system shall record the date and time of each course registration.,Clear,,University Management,Phase1_Domain_Expansion
+The travel platform shall minimize failures during reservation records processing.,Ambiguous,Non-measurable Requirement,Travel & Hospitality,Phase2_Requirement_Type_Expansion
+The logistics management system shall permit the authorized user to cancel a shipment record before its scheduled processing time.,Clear,,Logistics,Phase 9 - Cross-Domain Adversarial
+The instructor shall grade the assignment after the student submits it.,Clear,,Education,Synthetic
+The library system shall update the borrowing record after a book is returned.,Clear,,Library Management,Phase 9 - Source-derived | Public Library Management System SRS example
+The healthcare management system shall protect the patient record using secure encryption.,Ambiguous,Vague Wording,Healthcare,Phase 14 - Subtle Ambiguity Contrastive
+The application shall display an estimated wait time for items currently backordered.,Clear,,General Software,Original
+Database traffic should be encrypted using modern security measures.,Ambiguous,Subjective Wording,General Software,Original
+The aviation management system shall maintain appropriate records for each flight record.,Ambiguous,Vague Wording,Aviation,Phase 9 - Structured-real-world | Original requirement patterned after real-world SRS structure
+The telecommunications management system shall allow the authorized user to approve it.,Ambiguous,Undefined Reference/Pronoun,Telecommunications,Phase 9 - Cross-Domain Adversarial
+The library management system shall reject the loan record when the required identifier is missing.,Clear,,Library Management,Phase 10 - Semantic Invariance
+The Doctor should be fast during login.,Ambiguous,Vague Wording,Healthcare,Original
+The application shall restore the previous enrollment state if a registration transaction fails.,Clear,,Student Management,Synthetic
+Users shall be able to The module shall preserve the previous bed status when an admission transaction fails.,Clear,,Hospital Management,Phase5_Linguistic_Diversity
+"If the required identifier is missing, the manufacturing management system shall reject the production order.",Clear,,Manufacturing,Phase 10 - Semantic Invariance
+"The system shall The education system shall send an email notification to the students after a successful transaction; if the previous transaction is complete, it shall also update the transaction.",Clear,,Education,Phase6_Complexity_Expansion
+The Government Services system should support records when required.,Ambiguous,Weak/Optional Wording,Government Services,Phase4_Domain_Ambiguity_Matrix
+The aviation management system shall process flight record quickly.,Ambiguous,Vague Wording,Aviation,Phase7_Hard_Negative_Contrastive
+"The system shall validate file uploads to accept only PDF, JPG, and PNG formats.",Clear,,General Software,Original
+The Communication Systems system shall process records quickly.,Ambiguous,Vague Wording,Communication Systems,Phase4_Domain_Ambiguity_Matrix
+The system shall The banking system shall generate a monthly report containing all transactions created during the selected month when the required information becomes available.,Clear,,Banking,Phase6_Complexity_Expansion
+The automotive service system shall provide an easy-to-use interface for service request.,Ambiguous,Subjective Wording,Automotive,Phase4_Domain_Ambiguity_Matrix
+The system could provide a summary preview before finalizing an enrollment.,Ambiguous,Incomplete Information,Education,Original
+The system shall assign a bed number automatically based on ward availability and patient condition.,Clear,,Healthcare,Original
+The college management system shall record the approved request with transaction reference COL-019.,Clear,,College Management,Phase12_Targeted_Balancing
+Only users assigned the inventory-manager role shall be permitted to approve stock adjustments.,Clear,,Inventory,Synthetic
+The logistics management system shall notify the operator when the request is submitted.,Ambiguous,Incomplete Information,Logistics,Phase7_Hard_Negative_Contrastive
+The manufacturing management system shall provide high performance when processing production record.,Ambiguous,Non-measurable Requirement,Manufacturing,Phase4_Domain_Ambiguity_Matrix
+System shall The library system shall return search results within 2 seconds for requests containing a valid identifier,Clear,,Library Management,Phase8_Noise_Robustness
+The payment module shall reverse a duplicate transaction within 1 business day of detection.,Clear,,Banking,Original
+The system shall confirm the booking once it is settled.,Ambiguous,Undefined Reference/Pronoun,General Software,Original
+The e-commerce management system shall archive the order record after a reasonable period.,Ambiguous,Incomplete Information,E-Commerce,Phase 10 - Semantic Invariance
+The Employee should minimize delays while updating records.,Ambiguous,Weak/Optional Wording,Payroll,Original
+The aviation management system shall maintain the latest aircraft status for each applicable record.,Ambiguous,Lexical Ambiguity,Aviation,Phase4_Domain_Ambiguity_Matrix
+Spot counters should update in real time smoothly.,Ambiguous,Incomplete Information,General Software,Original
+The university management system shall retain the previous value when course registrations is updated.,Clear,,University Management,Phase1_Domain_Expansion
+The product-search service shall return matching products within 2 seconds.,Clear,,E-Commerce,Synthetic
+The platform must The smart city platform shall maintain separate access permissions for administrators and operational users.,Clear,,Smart City,Phase6_Complexity_Expansion
+The manufacturing management system shall process the production order within 5 seconds.,Clear,,Manufacturing,Phase 10 - Semantic Invariance
+The healthcare management system shall display the patient record in a suitable manner.,Ambiguous,Subjective Wording,Healthcare,Phase 10 - Semantic Invariance
+The application could support minimize delays duing file upload.,Ambiguous,Weak/Optional Wording,General Software,Phase8_Noise_Robustness
+Users shall be able to The telecommunications system shall require authenticated access before the network administrator can modify subscriber records.,Clear,,Telecommunications,Phase5_Linguistic_Diversity
+"The e-commerce engine shall calculate shipping rates based on weight, volume, and destination ZIP code.",Clear,,E-Commerce,Original
+The analytics service shall process 1 million events per hour with less than 2% dropped events,Clear,,General Software,Phase8_Noise_Robustness
+The system shall send it to the responsible user after the user submits the request for construction operations.,Ambiguous,Undefined Reference/Pronoun,Construction,Phase5_Linguistic_Diversity
+The healthcare management system shall calculate the patient record using the approved rate table.,Clear,,Healthcare,Phase 14 - Subtle Ambiguity Contrastive
+Telemetry data should be captured continuously with sufficient detail.,Ambiguous,Vague Wording,General Software,Original
+System shall The application shall support single sign-on integration using SAML 2.0,Clear,,General Software,Phase8_Noise_Robustness
+The Payment module should provide a better user experience during login.,Ambiguous,Incomplete Information,Banking,Original
+The e-commerce platform should allow the customer to review the submitted request.,Ambiguous,Weak/Optional Wording,E-Commerce,Phase7_Hard_Negative_Contrastive
+The automotive service platform should provide vehicle records when required.,Ambiguous,Weak/Optional Wording,Automotive,Phase1_Domain_Expansion
+The logistics management system shall reject a shipment record when the required identifier is missing.,Clear,,Logistics,Phase 9 - Cross-Domain Adversarial
+The logistics management system shall reserve the shipment.,Ambiguous,Incomplete Information,Logistics,Phase 14 - Subtle Ambiguity Contrastive
+The energy management system shall perform outage recording efficiently.,Ambiguous,Non-measurable Requirement,Energy,Phase1_Domain_Expansion
+The system shall send a refund to the original payment method within 5 business days of ticket cancellation.,Clear,,Banking,Original
+The healthcare management system shall allow the authorized user to approve the patient record.,Clear,,Healthcare,Phase 9 - Cross-Domain Adversarial
+The online examination system shall provide high performance when processing candidate record.,Ambiguous,Non-measurable Requirement,Online Examination,Phase4_Domain_Ambiguity_Matrix
+The energy management system shall allow the operator to validate the submitted record.,Clear,,Energy,Phase7_Hard_Negative_Contrastive
+The automotive management system shall notify the service advisor promptly after a failed service order operation.,Ambiguous,Non-measurable Requirement,Automotive,Phase 9 - Structured-real-world | Original requirement patterned after real-world SRS structure
+The banking management system shall permit the customer to cancel the loan application before dispatch.,Clear,,Banking,Phase 14 - Subtle Ambiguity Contrastive
+The pharmacy management system should support medicine record when required.,Ambiguous,Weak/Optional Wording,Pharmacy,Phase4_Domain_Ambiguity_Matrix
+The system shall The aviation management system shall process flight records quickly when the user submits the request.,Ambiguous,Vague Wording,Aviation,Phase6_Complexity_Expansion
+The manufacturing system shall lock an account after 5 consecutive failed authentication attempts.,Clear,,Manufacturing,Phase2_Requirement_Type_Expansion
+The online examination system shall export exam sessions in CSV format.,Clear,,Online Examination,Phase1_Domain_Expansion
+The learning platform shall provide an intuitive interface.,Ambiguous,Subjective Wording,Education,Synthetic
+The emergency management management system shall generate the incident record within 5 seconds.,Clear,,Emergency Management,Phase 9 - Cross-Domain Adversarial
+The system shall lock grade entries 48 hours after the faculty submission deadline.,Clear,,Education,Original
+The library system shall restrict check-in and check-out operations to users with librarian authorization.,Clear,,Library Management,Phase 9 - Source-derived | Public Library Management System SRS example
+Trash items should be stored for a reasonable timeframe before purging.,Ambiguous,Subjective Wording,General Software,Original
+The patient portal shall load medical records quickly.,Ambiguous,Vague Wording,Healthcare,Synthetic
+The messaging service shall deliver a message to an online recipient within 2 seconds of successful submission.,Clear,,Communication Systems,Synthetic
+The telecommunications service shall maintain separate access permissions for administrators and operational users.,Clear,,Telecommunications,Phase1_Domain_Expansion
+The pharmacy management system could notify users about stock status.,Ambiguous,Weak/Optional Wording,Pharmacy,Phase4_Domain_Ambiguity_Matrix
+"The search engine shall support boolean operators AND, OR, and NOT in query strings.",Clear,,General Software,Original
+The agricultural management system shall update it when the record changes.,Ambiguous,Undefined Reference/Pronoun,Agriculture,Phase1_Domain_Expansion
+The API shall return HTTP 200 status code with JSON payload within 300 milliseconds.,Clear,,General Software,Original
+The application shall generate a daily report containing completed trips and their total distance.,Clear,,Transportation,Synthetic
+Only instructors assigned to a course shall be permitted to publish grades for that course.,Clear,,Education,Synthetic
+The reporting module shall prepare the figures.,Ambiguous,Incomplete Information,General Software,Original
+The pharmacy management system shall retain the prescription record for a sufficient period.,Ambiguous,Incomplete Information,Pharmacy,Phase 9 - Cross-Domain Adversarial
+The system shall The hospital management system shall provide the patients with suitable options for admission records quickly.,Ambiguous,Vague Wording,Hospital Management,Phase6_Complexity_Expansion
+The application should feel efficient during month-end closing.,Ambiguous,Non-measurable Requirement,General Software,Original
+The application shall log system performance metrics to Prometheus every 10 seconds.,Clear,,General Software,Original
+The emergency management system may provide an option to manage response request.,Ambiguous,Weak/Optional Wording,Emergency Management,Phase4_Domain_Ambiguity_Matrix
+The banking system shall protect account information securely.,Ambiguous,Non-measurable Requirement,Banking,Phase 9 - Source-derived | Public Banking Management System SRS example
+The emergency management system shall update the service record when the status is changed.,Ambiguous,Lexical Ambiguity,Emergency Management,Phase1_Domain_Expansion
+The Application shall store audit logs for 90 days while processing payments.,Clear,,E-Commerce,Original
+The smart city platform shall process sensor readings using the current account.,Ambiguous,Lexical Ambiguity,Smart City,Phase1_Domain_Expansion
+The logistics system shall maintain efficient performance during high demand.,Ambiguous,Non-measurable Requirement,Logistics,Phase2_Requirement_Type_Expansion
+The e-commerce management system shall store the order for an appropriate period.,Ambiguous,Non-measurable Requirement,E-Commerce,Phase 14 - Subtle Ambiguity Contrastive
+The Doctor should provide a better user experience while updating records.,Ambiguous,Incomplete Information,Healthcare,Original
+The construction project system shall allow authorized users to create and update project records.,Clear,,Construction,Phase1_Domain_Expansion
+The Transportation system must process records quickly.,Ambiguous,Vague Wording,Transportation,Phase8_Noise_Robustness
+The education management system shall process the student record quickly.,Ambiguous,Non-measurable Requirement,Education,Phase 10 - Semantic Invariance
+The smart city platform shall maintain the latest service request for each applicable record.,Ambiguous,Lexical Ambiguity,Smart City,Phase4_Domain_Ambiguity_Matrix
+The application shall update the record.,Ambiguous,Incomplete Information,General Software,Original
+The Doctor shall back up the database every 24 hours during report generation.,Clear,,Healthcare,Original
+The government services system shall record the timestamp for every request transaction.,Clear,,Government Services,Phase12_Targeted_Balancing
+The online examination system shall notify the candidate through email when the request is submitted.,Clear,,Online Examination,Phase7_Hard_Negative_Contrastive
+The system shall assign the task to the person handling the account.,Ambiguous,Lexical Ambiguity,General Software,Original
+The emergency management system shall provide an easy-to-use interface for response request.,Ambiguous,Subjective Wording,Emergency Management,Phase4_Domain_Ambiguity_Matrix
+The library system shall restrict report generation according to assigned privileges.,Clear,,Library Management,Phase 9 - Source-derived | Public Library Management System SRS example
+The insurance management system shall update the claim record identified by the submitted identifier.,Clear,,Insurance,Phase7_Hard_Negative_Contrastive
+The education management system shall respond within 2 seconds for 95% of requests under the stated load.,Clear,,Education,Phase 14 - Subtle Ambiguity Contrastive
+The bank shall maintain the customer's account records.,Ambiguous,Lexical Ambiguity,Banking,Synthetic
+The system shall encrypt session tokens using a 256-bit key.,Clear,,General Software,Original
+The automotive service platform shall send them to the responsible user after processing.,Ambiguous,Undefined Reference/Pronoun,Automotive,Phase1_Domain_Expansion
+The college management system shall record the approved record with transaction reference COL-027.,Clear,,College Management,Phase12_Targeted_Balancing
+The railway management system shall respond quickly under the stated load.,Ambiguous,Non-measurable Requirement,Railway,Phase 14 - Subtle Ambiguity Contrastive
+The system shall provide a reasonable degree of report accuracy.,Ambiguous,Subjective Wording,General Software,Original
+The university system may restrict access to sensitive course records for some users.,Ambiguous,Weak/Optional Wording,University Management,Phase2_Requirement_Type_Expansion
+"The system shall store the guest name, room number, check-in date, and check-out date for each confirmed reservation.",Clear,,Hotel Management,Synthetic
+The Payment module should provide a better user experience during data synchronization.,Ambiguous,Vague Wording,Banking,Original
+The application shall be able to view their annual performance appraisal score once published.,Clear,,General Software,Phase6_Complexity_Expansion
+The construction project system shall update the service record when the status is changed.,Ambiguous,Lexical Ambiguity,Construction,Phase1_Domain_Expansion
+The student portal shall provide secure access to academic information.,Ambiguous,Non-measurable Requirement,Student Management,Synthetic
+Support tickets should be routed quickly to appropriate staff.,Ambiguous,Subjective Wording,General Software,Original
+The agriculture management system shall reserve the crop record only when the requested date has available capacity.,Clear,,Agriculture,Phase 14 - Subtle Ambiguity Contrastive
+The system shall terminate an idle finance-officer session after 8 minutes.,Clear,,General Software,Original
+The platform must The booking service shall allow a passenger to select a window or aisle seat preference before the request is received.,Clear,,Railway,Phase6_Complexity_Expansion
+The system shall record the transaction.,Ambiguous,Lexical Ambiguity,Banking,Original
+The system may allow librarians to extend due dates at their discretion.,Ambiguous,Undefined Reference/Pronoun,General Software,Original
+The dashboard shall look clean according to the design team's taste.,Ambiguous,Subjective Wording,General Software,Original
+The agriculture management system should allow the farmer to review the submitted request.,Ambiguous,Weak/Optional Wording,Agriculture,Phase7_Hard_Negative_Contrastive
+The banking management system shall retain the transaction record for 365 days.,Clear,,Banking,Phase 9 - Cross-Domain Adversarial
+The banking management system shall notify the customer promptly after a failed operation.,Ambiguous,Non-measurable Requirement,Banking,Phase 14 - Subtle Ambiguity Contrastive
+The food delivery platform shall notify the customer when the request is submitted.,Ambiguous,Incomplete Information,Food Delivery,Phase7_Hard_Negative_Contrastive
+The application shall schedule the reminder.,Ambiguous,Incomplete Information,General Software,Original
+The travel and hospitality system shall notify the traveler when the record is received.,Ambiguous,Incomplete Information,Travel & Hospitality,Phase7_Hard_Negative_Contrastive
+The system shall update their details when the information becomes available for student management operations.,Ambiguous,Undefined Reference/Pronoun,Student Management,Phase5_Linguistic_Diversity
+The logistics management system shall generate the shipment record within 5 seconds.,Clear,,Logistics,Phase 9 - Cross-Domain Adversarial
+The automotive management system shall permit the authorized user to cancel the vehicle record before it is processed.,Ambiguous,Incomplete Information,Automotive,Phase 9 - Cross-Domain Adversarial
+The system shall send a birthday discount coupon to registered customers on their birthday.,Clear,,E-Commerce,Original
+The energy management system may provide an option to manage energy reading.,Ambiguous,Weak/Optional Wording,Energy,Phase4_Domain_Ambiguity_Matrix
+Seat holds should last for a reasonable period while customer pays.,Ambiguous,Subjective Wording,Railway,Original
+"Within 10 seconds of a failed operation, the insurance management system shall notify the supervisor.",Clear,,Insurance,Phase 10 - Semantic Invariance
+The insurance policy shall process claims using the current account.,Ambiguous,Lexical Ambiguity,Insurance,Phase1_Domain_Expansion
+"When the required information becomes available, student can The student service shall encrypt student records while they are transmitted between the portal and server.",Clear,,Student Management,Phase5_Linguistic_Diversity
+The railway management system must notify the passenger through email when the request is submitted.,Clear,,Railway,Phase8_Noise_Robustness
+The Platform should be fast during registration.,Ambiguous,Vague Wording,Railway,Original
+The platform should support several major languages for global users.,Ambiguous,Incomplete Information,Railway,Original
+The manufacturing system shall process the latest production order.,Ambiguous,Lexical Ambiguity,Manufacturing,Phase3_Ambiguity_Category_Expansion
+The railway system shall minimize failures during train schedules processing.,Ambiguous,Non-measurable Requirement,Railway,Phase2_Requirement_Type_Expansion
+The online examination system shall maintain a reliable service for users.,Ambiguous,Vague Wording,Online Examination,Phase1_Domain_Expansion
+"After completing the transaction, the e-commerce management system shall generate a report.",Clear,,E-Commerce,Phase 10 - Semantic Invariance
+The inventory system shall notify the warehouse manager when stock falls below the configured reorder level.,Clear,,Inventory,Phase12_Targeted_Balancing
+The aviation management system shall allow the authorized user to approve the flight record.,Clear,,Aviation,Phase 9 - Cross-Domain Adversarial
+Passwords should be sufficiently complex to ensure safety.,Ambiguous,Weak/Optional Wording,General Software,Original
+The application shall comply with GDPR requirements for user data deletion requests.,Clear,,General Software,Original
+The smart city platform shall support citizen request handling for registered users.,Clear,,Smart City,Phase1_Domain_Expansion
+The automotive management system shall permit the authorized user to cancel a vehicle record before its scheduled processing time.,Clear,,Automotive,Phase 9 - Cross-Domain Adversarial
+The Platform shall respond to search requests within 2 seconds during registration.,Clear,,Railway,Original
+The smart city management system shall generate the service request quickly.,Ambiguous,Non-measurable Requirement,Smart City,Phase 9 - Cross-Domain Adversarial
+The reporting module shall mask sensitive fields such as national ID numbers in exported files.,Clear,,General Software,Original
+The pharmacy management system shall store prescription request for future processing.,Ambiguous,Incomplete Information,Pharmacy,Phase4_Domain_Ambiguity_Matrix
+The hotel application shall process reservations quickly.,Ambiguous,Vague Wording,Hotel Management,Synthetic
+The Transportation system should support records when required.,Ambiguous,Weak/Optional Wording,Transportation,Phase4_Domain_Ambiguity_Matrix
+The logistics management system shall update the shipment record after the user selects the current option.,Ambiguous,Lexical Ambiguity,Logistics,Phase4_Domain_Ambiguity_Matrix
+The emergency management system shall update the latest approved incident record.,Clear,,Emergency Management,Phase7_Hard_Negative_Contrastive
+The System should provide a better user experience during file upload.,Ambiguous,Incomplete Information,General Software,Original
+"The system shall The manufacturing system shall allow the quality inspector to search production orders by identifier; if the previous transaction is complete, it shall also update the request",Clear,,Manufacturing,Phase8_Noise_Robustness
+The banking management system shall reject the loan application when the required identifier is missing.,Clear,,Banking,Phase 14 - Subtle Ambiguity Contrastive
+The logistics management system shall process the shipment record within 5 seconds.,Clear,,Logistics,Phase 10 - Semantic Invariance
+Results lists should be broken up into convenient pages for users.,Ambiguous,Subjective Wording,General Software,Original
+The smart city system shall prevent duplicate records when the same unique identifier is submitted.,Clear,,Smart City,Phase2_Requirement_Type_Expansion
+The reporting module may allow custom filters if development time permits.,Ambiguous,Weak/Optional Wording,General Software,Original
+The library management system shall notify the member through email when the record is received.,Clear,,Library Management,Phase7_Hard_Negative_Contrastive
+The authentication service shall enforce a minimum password length of 8 characters with at least one number.,Clear,,General Software,Original
+The food delivery platform shall display delivery request in a user-friendly format.,Ambiguous,Subjective Wording,Food Delivery,Phase7_Hard_Negative_Contrastive
+The system shall isolate notification service failures from affecting core booking functionality.,Clear,,Communication Systems,Original
+The manufacturing management system shall use secure encryption for stored production order data.,Ambiguous,Vague Wording,Manufacturing,Phase 9 - Structured-real-world | Original requirement patterned after real-world SRS structure
+The student management system should notify the students about important student profiles changes.,Ambiguous,Weak/Optional Wording,Student Management,Phase2_Requirement_Type_Expansion
+Users shall The online examination system shall retain the previous value when question banks is updated.,Clear,,Online Examination,Phase6_Complexity_Expansion
+The pharmacy management system shall update the service record when the status is changed.,Ambiguous,Lexical Ambiguity,Pharmacy,Phase1_Domain_Expansion
+The reporting module shall anonymize personally identifiable information in exported analytics reports.,Clear,,General Software,Original
+The application shall be reasonably secure for storing academic records.,Ambiguous,Non-measurable Requirement,General Software,Original
+"The application shall maintain consistent layout rendering across Chrome, Edge, and Firefox.",Clear,,General Software,Original
+The college management system shall record the approved service with transaction reference COL-036.,Clear,,College Management,Phase12_Targeted_Balancing
+The healthcare management system shall store the patient record for an appropriate period.,Ambiguous,Non-measurable Requirement,Healthcare,Phase 14 - Subtle Ambiguity Contrastive
+The system shall support multi-factor authentication via TOTP authenticator apps.,Clear,,General Software,Original
+The manufacturing management system shall send an alert to the supervisor promptly after a failed production order.,Ambiguous,Non-measurable Requirement,Manufacturing,Phase 9 - Cross-Domain Adversarial
+The manufacturing system may notify the quality inspector about important changes.,Ambiguous,Weak/Optional Wording,Manufacturing,Phase1_Domain_Expansion
+The banking management system shall complete transaction within 3 seconds.,Clear,,Banking,Phase7_Hard_Negative_Contrastive
+The telecommunications management system shall show the service request status appropriately.,Ambiguous,Subjective Wording,Telecommunications,Phase 9 - Cross-Domain Adversarial
+The manufacturing system shall process production orders quickly.,Ambiguous,Vague Wording,Manufacturing,Phase1_Domain_Expansion
+The agriculture management system shall update the current crop record.,Ambiguous,Lexical Ambiguity,Agriculture,Phase7_Hard_Negative_Contrastive
+The booking service shall automatically apply a senior citizen discount for passengers aged 60 and above.,Clear,,Government Services,Original
+The system shall process requests efficiently.,Ambiguous,Non-measurable Requirement,Aerospace / Software Engineering,Phase 9 - Source-derived | NASA Software Engineering Handbook / NPR 7150.2
+The application shall notify the operations team within 1 minute of a server going offline.,Clear,,General Software,Original
+The booking service may offer flexible seating for families traveling with infants.,Ambiguous,Weak/Optional Wording,General Software,Original
+The platform shall display this information after the record is updated.,Ambiguous,Undefined Reference/Pronoun,Manufacturing,Phase6_Complexity_Expansion
+The library management system should reject the loan record when the identifier is missing.,Ambiguous,Weak/Optional Wording,Library Management,Phase 10 - Semantic Invariance
+The reporting module shall generate a subject-wise pass percentage report each semester.,Clear,,Student Management,Original
+The insurance management system shall reserve the claim.,Ambiguous,Incomplete Information,Insurance,Phase 14 - Subtle Ambiguity Contrastive
+The insurance management system shall display the claim record with a good response time.,Ambiguous,Subjective Wording,Insurance,Phase 10 - Semantic Invariance
+The construction management system shall generate the work order within 5 seconds.,Clear,,Construction,Phase 9 - Cross-Domain Adversarial
+The application could support biometric login on supported devices in a later phase.,Ambiguous,Weak/Optional Wording,General Software,Original
+The system shall provide sufficient flexibility for future upgrades.,Ambiguous,Incomplete Information,General Software,Original
+The system should be practical for daily administrative tasks.,Ambiguous,Weak/Optional Wording,General Software,Original
+The manufacturing system shall provide sufficient capacity for production orders.,Ambiguous,Non-measurable Requirement,Manufacturing,Phase1_Domain_Expansion
+The system shall be adequately fast for high-volume order processing.,Ambiguous,Vague Wording,E-Commerce,Original
+The interface should be clear enough for non-technical staff.,Ambiguous,Weak/Optional Wording,General Software,Original
+The aviation management system shall generate a report containing passenger manifests for a selected period.,Clear,,Aviation,Phase1_Domain_Expansion
+"The application shall support at least 4,000 concurrent live chat sessions.",Clear,,Communication Systems,Original
+The telecommunications management system shall permit the authorized user to cancel a service request before its scheduled processing time.,Clear,,Telecommunications,Phase 9 - Cross-Domain Adversarial
+The emergency management system shall send them to the responsible user after processing.,Ambiguous,Undefined Reference/Pronoun,Emergency Management,Phase1_Domain_Expansion
+The application should handle errors gracefully in most situations.,Ambiguous,Incomplete Information,General Software,Original
+The system shall seem accessible to first-time policyholders.,Ambiguous,Incomplete Information,General Software,Original
+The manufacturing management system shall apply the discount.,Ambiguous,Incomplete Information,Manufacturing,Phase 14 - Subtle Ambiguity Contrastive
+The dispatch module shall reject a trip assignment when the selected vehicle is already assigned to another active trip.,Clear,,Transportation,Synthetic
+The university system shall import course records from the configured external system once every hour.,Clear,,University Management,Phase2_Requirement_Type_Expansion
+The education management system shall generate the student record quickly.,Ambiguous,Non-measurable Requirement,Education,Phase 9 - Cross-Domain Adversarial
+Users shall be able to The inventory system shall accept only numeric values in fields defined as numeric after the request is received.,Clear,,Inventory,Phase6_Complexity_Expansion
+The banking system shall enforce role-based access to administrative functions.,Clear,,Banking,Phase 9 - Source-derived | Public Banking Management System SRS example
+The reporting module shall reduce query execution time by using pre-aggregated summary tables.,Clear,,General Software,Original
+The college management system shall prevent duplicate transaction identifiers.,Clear,,College Management,Phase12_Targeted_Balancing
+The library management system shall archive the loan record after an appropriate period.,Ambiguous,Incomplete Information,Library Management,Phase 10 - Semantic Invariance
+"The system shall The pharmacy management system shall record the date and time of each prescription recording; if the previous transaction is complete, it shall also update the record.",Clear,,Pharmacy,Phase6_Complexity_Expansion
+The payment module shall authorize credit card transactions within 3 seconds of submission.,Clear,,Banking,Original
+The insurance system should notify the policyholders about important claim records changes.,Ambiguous,Weak/Optional Wording,Insurance,Phase2_Requirement_Type_Expansion
+"If the user submits the request and the record has changed, the platform shall ensure secure and reliable processing of service.",Ambiguous,Non-measurable Requirement,Government Services,Phase6_Complexity_Expansion
+The food delivery platform shall update it when the record changes.,Ambiguous,Undefined Reference/Pronoun,Food Delivery,Phase1_Domain_Expansion
+The system shall encrypt citizen records during transmission between the browser and application server.,Clear,,Government Services,Synthetic
+The pharmacy management system shall perform stock updates efficiently.,Ambiguous,Non-measurable Requirement,Pharmacy,Phase1_Domain_Expansion
+The librarian shall be permitted by the library management system to approve the loan record.,Clear,,Library Management,Phase 10 - Semantic Invariance
+The system should provide decent precision for interest calculations.,Ambiguous,Incomplete Information,Banking,Original
+The logistics platform shall update it when the record changes.,Ambiguous,Undefined Reference/Pronoun,Logistics,Phase1_Domain_Expansion
+Users shall The automotive service platform shall record failed authentication attempts for audit purposes.,Clear,,Automotive,Phase6_Complexity_Expansion
+The logistics system shall process at least 500 shipment records per hour under normal operating conditions.,Clear,,Logistics,Phase2_Requirement_Type_Expansion
+The transportation system shall require authenticated access before the transport administrator can modify trip records.,Clear,,Transportation,Phase2_Requirement_Type_Expansion
+The emergency management management system should reject a incident record when the required identifier is missing.,Ambiguous,Weak/Optional Wording,Emergency Management,Phase 9 - Cross-Domain Adversarial
+The inventory system shall send timely notifications about stock records.,Ambiguous,Vague Wording,Inventory,Phase2_Requirement_Type_Expansion
+Security certificates should be renewed in a timely manner.,Ambiguous,Non-measurable Requirement,General Software,Original
+The reporting dashboard shall look polished to the executive board.,Ambiguous,Incomplete Information,General Software,Original
+The insurance management system shall protect the claim record with appropriate encryption.,Ambiguous,Vague Wording,Insurance,Phase 10 - Semantic Invariance
+The Platform shall send confirmation emails after registration while processing payments.,Clear,,Railway,Original
+The travel platform shall store the creation timestamp for every reservation records record.,Clear,,Travel & Hospitality,Phase2_Requirement_Type_Expansion
+The application shall maintain high availability for request for logistics operations.,Ambiguous,Non-measurable Requirement,Logistics,Phase5_Linguistic_Diversity
+The aviation management system shall send an alert to the supervisor promptly after a failed flight record.,Ambiguous,Non-measurable Requirement,Aviation,Phase 9 - Cross-Domain Adversarial
+The booking interface shall provide a comfortable reservation experience.,Ambiguous,Subjective Wording,Hotel Management,Synthetic
+The system shall update the account after it is approved.,Ambiguous,Undefined Reference/Pronoun,Banking,Synthetic
+The insurance management system shall approve the claim when all mandatory verification checks pass.,Clear,,Insurance,Phase 14 - Subtle Ambiguity Contrastive
+The energy management system shall record the date and time of each meter registration.,Clear,,Energy,Phase1_Domain_Expansion
+The telecommunications management system shall reserve the service request only when the requested date has available capacity.,Clear,,Telecommunications,Phase 14 - Subtle Ambiguity Contrastive
+The insurance management system shall calculate the claim.,Ambiguous,Incomplete Information,Insurance,Phase 14 - Subtle Ambiguity Contrastive
+The service shall retain appointment history after an appointment is completed.,Clear,,Healthcare,Augmented
+The Application shall generate monthly reports in PDF format while processing payments.,Clear,,General Software,Original
+The reporting tool shall flag the item that appears mismatched.,Ambiguous,Undefined Reference/Pronoun,General Software,Original
+The booking service shall encrypt guest payment information during transmission.,Clear,,Hotel Management,Synthetic
+The platform shall support concurrent editing of documents by up to 5 users simultaneously.,Clear,,Railway,Original
+The Hotel Management system shall process the relevant status before completing the request.,Ambiguous,Lexical Ambiguity,Hotel Management,Phase4_Domain_Ambiguity_Matrix
+Administrators shall be able to deactivate a user account within the user management panel.,Clear,,General Software,Original
+The Bank should be fast during appointment booking.,Ambiguous,Vague Wording,Banking,Original
+The travel booking platform shall allow the traveler to search reservations by identifier.,Clear,,Travel & Hospitality,Phase1_Domain_Expansion
+The automotive service system shall update it after the user confirms vehicle record.,Ambiguous,Undefined Reference/Pronoun,Automotive,Phase4_Domain_Ambiguity_Matrix
+The system may support additional payment methods if feasible.,Ambiguous,Incomplete Information,Banking,Original
+The Customer should provide a better user experience while processing payments.,Ambiguous,Incomplete Information,E-Commerce,Original
+The banking management system shall process transaction quickly.,Ambiguous,Vague Wording,Banking,Phase7_Hard_Negative_Contrastive
+The emergency management system should allow the operator to validate the submitted record.,Ambiguous,Weak/Optional Wording,Emergency Management,Phase7_Hard_Negative_Contrastive
+A Student Management system shall provide the capability to Only authorized academic administrators shall be able to modify a student's department.,Clear,,Student Management,Phase5_Linguistic_Diversity
+The system shall assign the slot.,Ambiguous,Incomplete Information,General Software,Original
+The application should appear credible to new patients.,Ambiguous,Weak/Optional Wording,General Software,Original
+The insurance system shall import claim records from the configured external system once every hour.,Clear,,Insurance,Phase2_Requirement_Type_Expansion
+The manufacturing management system shall store the production order for 365 days.,Clear,,Manufacturing,Phase 14 - Subtle Ambiguity Contrastive
+"When the operation is completed, the system shall The reporting dashboard shall be fast enough for real-time monitoring efficiently and provide a suitable request.",Ambiguous,Vague Wording,General Software,Phase6_Complexity_Expansion
+"When the user submits the request, the system shall update the current record and retain the original one.",Ambiguous,Lexical Ambiguity,General Software,Phase6_Complexity_Expansion
+The manufacturing management system shall complete production record within 5 seconds.,Clear,,Manufacturing,Phase7_Hard_Negative_Contrastive
+The reporting tool shall highlight the figure that appears incorrect.,Ambiguous,Undefined Reference/Pronoun,General Software,Original
+The hospital system shall update bed availability promptly.,Ambiguous,Vague Wording,Hospital Management,Synthetic
+Administrators shall be able to configure the academic calendar including holidays and exam dates.,Clear,,Education,Original
+The aerospace software system shall display the current status of each telemetry record.,Clear,,Aerospace / Software Engineering,Phase12_Targeted_Balancing
+The logistics platform shall export shipments in CSV format.,Clear,,Logistics,Phase1_Domain_Expansion
+The automotive service platform shall update it when the record changes.,Ambiguous,Undefined Reference/Pronoun,Automotive,Phase1_Domain_Expansion
+The Hospital Management system shall update it after the user confirms records.,Ambiguous,Undefined Reference/Pronoun,Hospital Management,Phase4_Domain_Ambiguity_Matrix
+The system shall maintain 99.85% uptime for the order management portal.,Clear,,E-Commerce,Original
+"After the record is updated, the platform shall cancel a reservation automatically if payment is not completed within 15 minutes, notify the customer, and store the resulting payment.",Clear,,Banking,Phase6_Complexity_Expansion
+The Platform should support many users during checkout.,Ambiguous,Incomplete Information,Railway,Original
+The communication system shall generate comprehensive reports for the system administrator.,Ambiguous,Non-measurable Requirement,Communication Systems,Phase2_Requirement_Type_Expansion

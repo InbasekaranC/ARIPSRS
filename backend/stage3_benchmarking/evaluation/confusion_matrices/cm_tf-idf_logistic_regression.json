@@ -1,0 +1,9 @@
+{
+    "model_name": "TF-IDF + Logistic Regression",
+    "confusion_matrix": {
+        "true_negative": 59,
+        "false_positive": 3,
+        "false_negative": 0,
+        "true_positive": 62
+    }
+}

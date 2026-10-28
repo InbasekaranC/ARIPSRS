@@ -1,0 +1,160 @@
+{
+    "summary": {
+        "total_cleaned_baseline": 347,
+        "current_yes_count": 224,
+        "target_yes_count": 3000,
+        "total_yes_gap": 2826,
+        "current_no_count": 123,
+        "target_no_count": 3000,
+        "total_no_gap": 2677
+    },
+    "yes_categories_gap": {
+        "Functional": {
+            "current_count": 28,
+            "target_count": 300,
+            "expansion_gap": 272
+        },
+        "Non-Functional": {
+            "current_count": 75,
+            "target_count": 200,
+            "expansion_gap": 125
+        },
+        "Security": {
+            "current_count": 19,
+            "target_count": 250,
+            "expansion_gap": 231
+        },
+        "Performance": {
+            "current_count": 3,
+            "target_count": 200,
+            "expansion_gap": 197
+        },
+        "Usability": {
+            "current_count": 2,
+            "target_count": 150,
+            "expansion_gap": 148
+        },
+        "Reliability": {
+            "current_count": 0,
+            "target_count": 150,
+            "expansion_gap": 150
+        },
+        "Availability": {
+            "current_count": 0,
+            "target_count": 150,
+            "expansion_gap": 150
+        },
+        "Data": {
+            "current_count": 18,
+            "target_count": 150,
+            "expansion_gap": 132
+        },
+        "API/Interface": {
+            "current_count": 0,
+            "target_count": 200,
+            "expansion_gap": 200
+        },
+        "Business Rules": {
+            "current_count": 4,
+            "target_count": 200,
+            "expansion_gap": 196
+        },
+        "Access Control": {
+            "current_count": 15,
+            "target_count": 150,
+            "expansion_gap": 135
+        },
+        "Authentication": {
+            "current_count": 20,
+            "target_count": 150,
+            "expansion_gap": 130
+        },
+        "Authorization": {
+            "current_count": 0,
+            "target_count": 150,
+            "expansion_gap": 150
+        },
+        "Reporting": {
+            "current_count": 8,
+            "target_count": 150,
+            "expansion_gap": 142
+        },
+        "Notification": {
+            "current_count": 9,
+            "target_count": 150,
+            "expansion_gap": 141
+        },
+        "Validation": {
+            "current_count": 15,
+            "target_count": 150,
+            "expansion_gap": 135
+        },
+        "Workflow": {
+            "current_count": 4,
+            "target_count": 100,
+            "expansion_gap": 96
+        },
+        "Integration": {
+            "current_count": 4,
+            "target_count": 100,
+            "expansion_gap": 96
+        }
+    },
+    "no_categories_gap": {
+        "Section Heading": {
+            "current_count": 23,
+            "target_count": 250,
+            "expansion_gap": 227
+        },
+        "Introduction": {
+            "current_count": 11,
+            "target_count": 200,
+            "expansion_gap": 189
+        },
+        "Background": {
+            "current_count": 2,
+            "target_count": 200,
+            "expansion_gap": 198
+        },
+        "System Overview": {
+            "current_count": 0,
+            "target_count": 250,
+            "expansion_gap": 250
+        },
+        "Figure/Table Caption": {
+            "current_count": 15,
+            "target_count": 200,
+            "expansion_gap": 185
+        },
+        "Glossary/Reference": {
+            "current_count": 14,
+            "target_count": 200,
+            "expansion_gap": 186
+        },
+        "Future Work": {
+            "current_count": 7,
+            "target_count": 150,
+            "expansion_gap": 143
+        },
+        "Implementation/Design Description": {
+            "current_count": 8,
+            "target_count": 350,
+            "expansion_gap": 342
+        },
+        "General/Historical Discussion": {
+            "current_count": 41,
+            "target_count": 250,
+            "expansion_gap": 209
+        },
+        "Document Metadata": {
+            "current_count": 2,
+            "target_count": 250,
+            "expansion_gap": 248
+        },
+        "Hard Negatives (Requirement-Like NO)": {
+            "current_count": 0,
+            "target_count": 500,
+            "expansion_gap": 500
+        }
+    }
+}

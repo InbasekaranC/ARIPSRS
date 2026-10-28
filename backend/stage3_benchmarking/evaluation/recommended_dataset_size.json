@@ -1,0 +1,6 @@
+{
+    "minimum_useful_size": 230,
+    "optimal_dataset_size": 575,
+    "plateau_point_samples": 460,
+    "conclusion": "Generalization performance reaches 98.3%+ F1 at ~230-345 training samples and plateaus completely beyond ~460-575 samples. Beyond 575 samples, additional data yields marginal accuracy gains relative to dataset quality and maintenance costs."
+}

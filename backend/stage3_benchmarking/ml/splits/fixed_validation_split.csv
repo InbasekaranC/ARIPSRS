@@ -1,0 +1,124 @@
+sample_id,text,label,category,domain,style,source,label_id
+DS2_0437,The Education system shall process peak transactions within 15 seconds of user submission.,YES,Performance,Education,Passive ('Data shall be...'),synthetic_generator,1
+DS2_0472,Only authorized finance officers shall be able to approve payments exceeding $1000 in the Insurance system.,YES,Access Control,Insurance,Security ('encrypt...'),synthetic_generator,1
+DS2_0071,The system must validate digital signatures on all uploaded Cybersecurity documents before processing.,YES,Security,Cybersecurity,Modal ('must/should'),synthetic_generator,1
+DS2_0451,Late payment penalties shall be calculated at 60% per month on overdue Hotel Management invoice balances.,YES,Business Rules,Hotel Management,Passive ('Data shall be...'),synthetic_generator,1
+DS2_0320,The Hotel Management database must execute read queries within 500 ms under standard operational load.,YES,Performance,Hotel Management,Explicit ('shall'),synthetic_generator,1
+DS2_0440,The HR Systems platform shall expose open OpenAPI v3 compliant REST endpoints for external integrations.,YES,API/Interface,HR Systems,Modal ('must/should'),synthetic_generator,1
+DS2_0421,This document describes the software requirements specification for the E-Commerce project.,NO,Introduction,E-Commerce,Declarative/Informative,synthetic_generator,0
+DS2_0187,Glossary item 8: Definition of threat modeling terminology.,NO,Baseline Pre-Existing,General Software,Standard,baseline_requirement_classification_data,0
+DS2_0600,Cashiers can verify account identity using the web portal.,YES,Baseline Pre-Existing,General Software,Standard,baseline_requirement_classification_data,1
+DS2_0080,The system shall generate a transcript listing all completed courses and grades.,YES,Baseline Pre-Existing,General Software,Standard,baseline_requirement_classification_data,1
+DS2_0591,The Inventory Systems application provides user management capabilities for administrative staff.,NO,Hard Negatives (Requirement-Like NO),Inventory Systems,Declarative/Informative,synthetic_generator,0
+DS2_0272,The proposed architecture aims to improve general library management.,NO,Baseline Pre-Existing,General Software,Standard,baseline_requirement_classification_data,0
+DS2_0330,Password verification ensures that account credentials meet security standards.,NO,Hard Negatives (Requirement-Like NO),Social Media,Declarative/Informative,synthetic_generator,0
+DS2_0092,Authentication is an important feature of the modern HR Systems web platform.,NO,Hard Negatives (Requirement-Like NO),HR Systems,Declarative/Informative,synthetic_generator,0
+DS2_0539,"The Education reporting engine must generate batch export files within 10 minutes for datasets under 100,000 rows.",YES,Performance,Education,Passive ('Data shall be...'),synthetic_generator,1
+DS2_0793,The Cybersecurity application must send a one-time verification code via SMS during new account registration.,YES,Authentication,Cybersecurity,User-Oriented ('Users can'),synthetic_generator,1
+DS2_0778,The application shall display real-time inventory availability for all listed Transportation items.,YES,Functional,Transportation,Modal ('must/should'),synthetic_generator,1
+DS2_0246,The Government system shall calculate a 30% discount for customer orders exceeding $250.,YES,Business Rules,Government,Security ('encrypt...'),synthetic_generator,1
+DS2_0426,The security service should send email notifications prior to session expiration.,YES,Baseline Pre-Existing,General Software,Standard,baseline_requirement_classification_data,1
+DS2_0114,"The Inventory Systems platform consists of three main modules: a web frontend, a REST API, and a database.",NO,System Overview,Inventory Systems,Declarative/Informative,synthetic_generator,0
+DS2_0249,The Manufacturing system shall allow users to upload profile pictures in PNG or JPG format.,YES,Functional,Manufacturing,Conditional ('If X occurs...'),synthetic_generator,1
+DS2_0571,Customers shall be able to add selected items to a digital shopping cart in the Banking store.,YES,Functional,Banking,Modal ('must/should'),synthetic_generator,1
+DS2_0425,Figure 3.1: High-level architectural diagram of the IoT web application.,NO,Figure/Table Caption,IoT,Declarative/Informative,synthetic_generator,0
+DS2_0486,The application must maintain immutable audit logs of all privilege escalation events in the Cloud Applications portal.,YES,Security,Cloud Applications,Performance ('within X ms'),synthetic_generator,1
+DS2_0479,The Manufacturing application shall encrypt all sensitive customer data at rest using AES-128 encryption.,YES,Security,Manufacturing,Modal ('must/should'),synthetic_generator,1
+DS2_0563,"The Finance reporting engine must generate batch export files within 30 minutes for datasets under 100,000 rows.",YES,Performance,Finance,User-Oriented ('Users can'),synthetic_generator,1
+DS2_0098,This document describes the software requirements specification for the Education project.,NO,Introduction,Education,Declarative/Informative,synthetic_generator,0
+DS2_0033,The project team evaluated user interface mockups during sprint 3.,NO,Baseline Pre-Existing,General Software,Standard,baseline_requirement_classification_data,0
+DS2_0091,The system shall lock out any Inventory Systems user account after 60 consecutive failed authentication attempts.,YES,Authentication,Inventory Systems,Conditional ('If X occurs...'),synthetic_generator,1
+DS2_0040,The system shall issue JWT session tokens with a maximum lifespan of 30 hours upon successful Inventory Systems login.,YES,Authentication,Inventory Systems,User-Oriented ('Users can'),synthetic_generator,1
+DS2_0565,This document describes the software requirements specification for the Cloud Applications project.,NO,Introduction,Cloud Applications,Declarative/Informative,synthetic_generator,0
+DS2_0645,Late payment penalties shall be calculated at 5% per month on overdue Government invoice balances.,YES,Business Rules,Government,Business Rule ('Only verified...'),synthetic_generator,1
+DS2_0463,The HR Systems database must execute read queries within 300 ms under standard operational load.,YES,Performance,HR Systems,Security ('encrypt...'),synthetic_generator,1
+DS2_0060,The purpose of this document is to outline the operational goals of the new Social Media software.,NO,Introduction,Social Media,Declarative/Informative,synthetic_generator,0
+DS2_0748,1. Introduction,NO,Baseline Pre-Existing,General Software,Standard,baseline_requirement_classification_data,0
+DS2_0225,The system shall issue JWT session tokens with a maximum lifespan of 5 hours upon successful Logistics login.,YES,Authentication,Logistics,Modal ('must/should'),synthetic_generator,1
+DS2_0324,APPENDIX A: GLOSSARY OF TERMS AND ACRONYMS,NO,Section Heading,E-Commerce,Declarative/Informative,synthetic_generator,0
+DS2_0689,System administrators must enforce multi-factor authentication for all remote access logins in the Banking portal.,YES,Security,Banking,Imperative ('Allow admins to...'),synthetic_generator,1
+DS2_0732,Table 4.2: Data dictionary mapping for Mobile Applications user account fields.,NO,Figure/Table Caption,Mobile Applications,Declarative/Informative,synthetic_generator,0
+DS2_0383,The Transportation system shall validate email address formatting using standard RFC regex checks.,YES,Validation,Transportation,Performance ('within X ms'),synthetic_generator,1
+DS2_0419,Late payment penalties shall be calculated at 10% per month on overdue Healthcare invoice balances.,YES,Business Rules,Healthcare,Imperative ('Allow admins to...'),synthetic_generator,1
+DS2_0087,The system shall handle at least 10000 concurrent API requests per second in the Government service.,YES,Performance,Government,Modal ('must/should'),synthetic_generator,1
+DS2_0180,"The database schema includes tables for users, transactions, and logs.",NO,Baseline Pre-Existing,General Software,Standard,baseline_requirement_classification_data,0
+DS2_0210,The user interface was built using React and TypeScript with Tailwind CSS styling.,NO,Implementation/Design Description,Social Media,Declarative/Informative,synthetic_generator,0
+DS2_0106,"The user interface follows clean, responsive design tokens.",NO,Baseline Pre-Existing,General Software,Standard,baseline_requirement_classification_data,0
+DS2_0022,The Healthcare platform shall maintain 99% operational uptime during peak business hours.,YES,Availability,Healthcare,Modal ('must/should'),synthetic_generator,1
+DS2_0817,"Currently, manual paper forms are used to manage Mobile Applications records across branch offices.",NO,Background,Mobile Applications,Declarative/Informative,synthetic_generator,0
+DS2_0314,Future work will explore advanced neural models for revision control history.,NO,Baseline Pre-Existing,General Software,Standard,baseline_requirement_classification_data,0
+DS2_0212,Managers shall be able to approve or reject expense reports submitted by employees.,YES,Baseline Pre-Existing,General Software,Standard,baseline_requirement_classification_data,1
+DS2_0474,4.3 Software Interfaces Overview,NO,Baseline Pre-Existing,General Software,Standard,baseline_requirement_classification_data,0
+DS2_0583,Figure 3.1: High-level architectural diagram of the Government web application.,NO,Figure/Table Caption,Government,Declarative/Informative,synthetic_generator,0
+DS2_0339,The legacy Cybersecurity application was developed in 2012 and suffers from poor maintainability.,NO,Background,Cybersecurity,Declarative/Informative,synthetic_generator,0
+DS2_0675,"Currently, manual paper forms are used to manage Manufacturing records across branch offices.",NO,Background,Manufacturing,Declarative/Informative,synthetic_generator,0
+DS2_0481,Data security is critical to protecting customer privacy in the Social Media database.,NO,Hard Negatives (Requirement-Like NO),Social Media,Declarative/Informative,synthetic_generator,0
+DS2_0466,Users can verify account identity using the user registry.,YES,Baseline Pre-Existing,General Software,Standard,baseline_requirement_classification_data,1
+DS2_0282,"Users can filter search results by date range, category, and price in the Government portal.",YES,Functional,Government,Performance ('within X ms'),synthetic_generator,1
+DS2_0704,Late payment penalties shall be calculated at 5% per month on overdue E-Commerce invoice balances.,YES,Business Rules,E-Commerce,Explicit ('shall'),synthetic_generator,1
+DS2_0344,"This specification is intended for software developers, testers, and project stakeholders.",NO,Introduction,Education,Declarative/Informative,synthetic_generator,0
+DS2_0177,API calls in the Government service must require a valid OAuth 2.0 bearer token for authorization.,YES,Security,Government,Conditional ('If X occurs...'),synthetic_generator,1
+DS2_0671,Only authorized finance officers shall be able to approve payments exceeding $2500 in the Government system.,YES,Access Control,Government,Security ('encrypt...'),synthetic_generator,1
+DS2_0205,We selected PostgreSQL as the primary relational database management system for the Manufacturing project.,NO,Implementation/Design Description,Manufacturing,Declarative/Informative,synthetic_generator,0
+DS2_0659,The purpose of this document is to outline the operational goals of the new Hospital Management software.,NO,Introduction,Hospital Management,Declarative/Informative,synthetic_generator,0
+DS2_0506,The IoT system shall calculate a 60% discount for customer orders exceeding $100.,YES,Business Rules,IoT,Explicit ('shall'),synthetic_generator,1
+DS2_0182,The Government system shall calculate a 10% discount for customer orders exceeding $1000.,YES,Business Rules,Government,Conditional ('If X occurs...'),synthetic_generator,1
+DS2_0555,2.5 Design and Implementation Constraints,NO,Baseline Pre-Existing,General Software,Standard,baseline_requirement_classification_data,0
+DS2_0097,"Overall, the Logistics solution connects end-users, administrative staff, and third-party vendors.",NO,System Overview,Logistics,Declarative/Informative,synthetic_generator,0
+DS2_0242,The Cloud Applications application must send a one-time verification code via SMS during new account registration.,YES,Authentication,Cloud Applications,Business Rule ('Only verified...'),synthetic_generator,1
+DS2_0818,The Transportation module shall restrict access to administrative tools to authorized security personnel only.,YES,Security,Transportation,User-Oriented ('Users can'),synthetic_generator,1
+DS2_0742,The database engine validates customers credentials automatically at 02:00 UTC.,YES,Baseline Pre-Existing,General Software,Standard,baseline_requirement_classification_data,1
+DS2_0529,Authentication is an important feature of the modern Inventory Systems web platform.,NO,Hard Negatives (Requirement-Like NO),Inventory Systems,Declarative/Informative,synthetic_generator,0
+DS2_0526,Table 4.2: Data dictionary mapping for Education user account fields.,NO,Figure/Table Caption,Education,Declarative/Informative,synthetic_generator,0
+DS2_0720,Figure 3.1: High-level architectural diagram of the Mobile Applications web application.,NO,Figure/Table Caption,Mobile Applications,Declarative/Informative,synthetic_generator,0
+DS2_0221,System administrators must enforce multi-factor authentication for all remote access logins in the Inventory Systems portal.,YES,Security,Inventory Systems,Imperative ('Allow admins to...'),synthetic_generator,1
+DS2_0112,The system validates users credentials within 2 seconds of request.,YES,Baseline Pre-Existing,General Software,Standard,baseline_requirement_classification_data,1
+DS2_0311,"Currently, manual paper forms are used to manage Insurance records across branch offices.",NO,Background,Insurance,Declarative/Informative,synthetic_generator,0
+DS2_0682,The purpose of this chapter is to present sprint planning.,NO,Baseline Pre-Existing,General Software,Standard,baseline_requirement_classification_data,0
+DS2_0508,Appendix Q: Reference material for user interface mockups.,NO,Baseline Pre-Existing,General Software,Standard,baseline_requirement_classification_data,0
+DS2_0392,Glossary item 8: Definition of network topology terminology.,NO,Baseline Pre-Existing,General Software,Standard,baseline_requirement_classification_data,0
+DS2_0762,The system shall lock out any Manufacturing user account after 30 consecutive failed authentication attempts.,YES,Authentication,Manufacturing,Security ('encrypt...'),synthetic_generator,1
+DS2_0351,The Insurance application must send a one-time verification code via SMS during new account registration.,YES,Authentication,Insurance,Security ('encrypt...'),synthetic_generator,1
+DS2_0480,The system must integrate with third-party Transportation payment gateways using secure REST web services.,YES,API/Interface,Transportation,Imperative ('Allow admins to...'),synthetic_generator,1
+DS2_0366,The system shall send a refund to the original payment method within 5 business days of ticket cancellation.,YES,Baseline Pre-Existing,General Software,Standard,baseline_requirement_classification_data,1
+DS2_0130,We selected PostgreSQL as the primary relational database management system for the Banking project.,NO,Implementation/Design Description,Banking,Declarative/Informative,synthetic_generator,0
+DS2_0199,"Due to increasing transaction volume, the existing E-Commerce database has reached storage capacity limits.",NO,Background,E-Commerce,Declarative/Informative,synthetic_generator,0
+DS2_0083,The application shall send an order confirmation email within 2 minutes of purchase.,YES,Baseline Pre-Existing,General Software,Standard,baseline_requirement_classification_data,1
+DS2_0329,Figure 3.1: High-level architectural diagram of the Education web application.,NO,Figure/Table Caption,Education,Declarative/Informative,synthetic_generator,0
+DS2_0708,The Insurance system shall validate email address formatting using standard RFC regex checks.,YES,Validation,Insurance,Explicit ('shall'),synthetic_generator,1
+DS2_0442,The Manufacturing API shall return standardized JSON formatted error messages with HTTP status codes.,YES,API/Interface,Manufacturing,Conditional ('If X occurs...'),synthetic_generator,1
+DS2_0213,The Hospital Management database must execute read queries within 300 ms under standard operational load.,YES,Performance,Hospital Management,Explicit ('shall'),synthetic_generator,1
+DS2_0332,"Currently, manual paper forms are used to manage Banking records across branch offices.",NO,Background,Banking,Declarative/Informative,synthetic_generator,0
+DS2_0691,The HR Systems application provides user management capabilities for administrative staff.,NO,Hard Negatives (Requirement-Like NO),HR Systems,Declarative/Informative,synthetic_generator,0
+DS2_0683,Figure 2.5: Sequence diagram illustrating user authentication in the Logistics portal.,NO,Figure/Table Caption,Logistics,Declarative/Informative,synthetic_generator,0
+DS2_0132,The Library Management service shall operate continuously 24/7 with scheduled maintenance limited to off-peak hours.,YES,Availability,Library Management,Security ('encrypt...'),synthetic_generator,1
+DS2_0548,Figure 2.5: Sequence diagram illustrating user authentication in the Manufacturing portal.,NO,Figure/Table Caption,Manufacturing,Declarative/Informative,synthetic_generator,0
+DS2_0288,Payment integration allows users to complete checkout using credit cards or digital wallets.,NO,Hard Negatives (Requirement-Like NO),Transportation,Declarative/Informative,synthetic_generator,0
+DS2_0074,The Cloud Applications API shall return standardized JSON formatted error messages with HTTP status codes.,YES,API/Interface,Cloud Applications,Imperative ('Allow admins to...'),synthetic_generator,1
+DS2_0800,Appendix W: Reference material for hardware requirements.,NO,Baseline Pre-Existing,General Software,Standard,baseline_requirement_classification_data,0
+DS2_0134,Version 1.0 - Initial Draft - August 2026,NO,Baseline Pre-Existing,General Software,Standard,baseline_requirement_classification_data,0
+DS2_0350,Supervisors must be able to grant or revoke operational privileges for Healthcare staff members.,YES,Access Control,Healthcare,Business Rule ('Only verified...'),synthetic_generator,1
+DS2_0029,We selected PostgreSQL as the primary relational database management system for the Education project.,NO,Implementation/Design Description,Education,Declarative/Informative,synthetic_generator,0
+DS2_0101,Figure 4.4 illustrates the architectural diagram of sprint planning.,NO,Baseline Pre-Existing,General Software,Standard,baseline_requirement_classification_data,0
+DS2_0432,The Hospital Management database shall execute automated incremental backups every 10 hours.,YES,Reliability,Hospital Management,Conditional ('If X occurs...'),synthetic_generator,1
+DS2_0434,Section 1.1: Overview of project scope constraints.,NO,Baseline Pre-Existing,General Software,Standard,baseline_requirement_classification_data,0
+DS2_0181,The system must integrate with third-party Cloud Applications payment gateways using secure REST web services.,YES,API/Interface,Cloud Applications,Explicit ('shall'),synthetic_generator,1
+DS2_0438,Data security is critical to protecting customer privacy in the E-Commerce database.,NO,Hard Negatives (Requirement-Like NO),E-Commerce,Declarative/Informative,synthetic_generator,0
+DS2_0267,We selected PostgreSQL as the primary relational database management system for the E-Commerce project.,NO,Implementation/Design Description,E-Commerce,Declarative/Informative,synthetic_generator,0
+DS2_0441,Figure 2.5: Sequence diagram illustrating user authentication in the Hospital Management portal.,NO,Figure/Table Caption,Hospital Management,Declarative/Informative,synthetic_generator,0
+DS2_0400,The system shall lock out any Cloud Applications user account after 5 consecutive failed authentication attempts.,YES,Authentication,Cloud Applications,User-Oriented ('Users can'),synthetic_generator,1
+DS2_0533,"AES: Advanced Encryption Standard, a symmetric-key encryption algorithm.",NO,Glossary/Reference,E-Commerce,Declarative/Informative,synthetic_generator,0
+DS2_0183,Late payment penalties shall be calculated at 10% per month on overdue Insurance invoice balances.,YES,Business Rules,Insurance,User-Oriented ('Users can'),synthetic_generator,1
+DS2_0612,The user manual will be published in digital PDF format upon release.,NO,Baseline Pre-Existing,General Software,Standard,baseline_requirement_classification_data,0
+DS2_0019,Appendix I: Reference material for testing methodology.,NO,Baseline Pre-Existing,General Software,Standard,baseline_requirement_classification_data,0
+DS2_0198,The Logistics system shall calculate a 5% discount for customer orders exceeding $500.,YES,Business Rules,Logistics,Modal ('must/should'),synthetic_generator,1
+DS2_0642,The Logistics platform shall maintain 99.9% operational uptime during peak business hours.,YES,Availability,Logistics,Conditional ('If X occurs...'),synthetic_generator,1
+DS2_0747,The team encountered hardware resource limitations during local training.,NO,Baseline Pre-Existing,General Software,Standard,baseline_requirement_classification_data,0
+DS2_0643,The legacy IoT application was developed in 2012 and suffers from poor maintainability.,NO,Background,IoT,Declarative/Informative,synthetic_generator,0
+DS2_0624,This document describes the software requirements specification for the Insurance project.,NO,Introduction,Insurance,Declarative/Informative,synthetic_generator,0
+DS2_0185,The Finance system shall display clear error messages explaining invalid input formatting to users.,YES,Usability,Finance,Conditional ('If X occurs...'),synthetic_generator,1
+DS2_0633,Figure 3.1: High-level architectural diagram of the Cybersecurity web application.,NO,Figure/Table Caption,Cybersecurity,Declarative/Informative,synthetic_generator,0
+DS2_0701,Users shall be able to log in to the Mobile Applications portal using valid email and password credentials.,YES,Authentication,Mobile Applications,Conditional ('If X occurs...'),synthetic_generator,1
+DS2_0698,The Inventory Systems system shall calculate a 15% discount for customer orders exceeding $1000.,YES,Business Rules,Inventory Systems,Performance ('within X ms'),synthetic_generator,1
+DS2_0346,Section 1.1: Overview of database schema.,NO,Baseline Pre-Existing,General Software,Standard,baseline_requirement_classification_data,0
+DS2_0677,The purpose of this document is to outline the operational goals of the new Manufacturing software.,NO,Introduction,Manufacturing,Declarative/Informative,synthetic_generator,0

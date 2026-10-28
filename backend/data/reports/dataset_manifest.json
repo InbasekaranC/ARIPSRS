@@ -1,0 +1,73 @@
+{
+    "dataset_version": "v4_final",
+    "created_date": "2026-08-17 12:14:20",
+    "total_samples": 822,
+    "class_counts": {
+        "YES": 411,
+        "NO": 411
+    },
+    "source_breakdown": {
+        "synthetic_generator": 646,
+        "baseline_requirement_classification_data": 176
+    },
+    "category_breakdown": {
+        "Baseline Pre-Existing": 176,
+        "Figure/Table Caption": 60,
+        "Background": 59,
+        "Business Rules": 55,
+        "Security": 55,
+        "Authentication": 51,
+        "Hard Negatives (Requirement-Like NO)": 51,
+        "Introduction": 41,
+        "System Overview": 41,
+        "Performance": 41,
+        "Access Control": 26,
+        "Functional": 26,
+        "Implementation/Design Description": 23,
+        "Reliability": 21,
+        "API/Interface": 17,
+        "Usability": 17,
+        "Availability": 17,
+        "Validation": 17,
+        "Reporting": 9,
+        "Section Heading": 7,
+        "Notification": 6,
+        "Glossary/Reference": 3,
+        "Document Metadata": 3
+    },
+    "domain_breakdown": {
+        "General Software": 176,
+        "Cloud Applications": 40,
+        "Education": 39,
+        "Inventory Systems": 38,
+        "Government": 37,
+        "E-Commerce": 37,
+        "Logistics": 37,
+        "Hotel Management": 36,
+        "IoT": 35,
+        "Healthcare": 33,
+        "Manufacturing": 32,
+        "Library Management": 31,
+        "Insurance": 31,
+        "Finance": 30,
+        "Cybersecurity": 30,
+        "Social Media": 28,
+        "HR Systems": 28,
+        "Transportation": 28,
+        "Hospital Management": 26,
+        "Banking": 26,
+        "Mobile Applications": 24
+    },
+    "reproducibility": {
+        "pipeline_scripts": [
+            "profile_dataset.py",
+            "clean_dataset.py",
+            "analyze_gaps.py",
+            "generate_candidates.py",
+            "validate_candidates.py",
+            "build_final_dataset.py"
+        ],
+        "random_seed": 42,
+        "semantic_threshold": 0.9
+    }
+}

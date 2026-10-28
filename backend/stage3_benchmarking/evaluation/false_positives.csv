@@ -1,0 +1,3 @@
+sample_id,text,label,category,domain,style,source,label_id,predicted_id,predicted_label,confidence,error_category
+DS2_0543,The system has been updated to support mobile browser accessibility.,NO,Hard Negatives (Requirement-Like NO),Logistics,Declarative/Informative,synthetic_generator,0,1,YES,0.6101,False Positive (Requirement-like wording in Non-Requirement)
+DS2_0390,The reporting module was designed to export financial data into Excel spreadsheets.,NO,Hard Negatives (Requirement-Like NO),Government,Declarative/Informative,synthetic_generator,0,1,YES,0.5191,False Positive (Requirement-like wording in Non-Requirement)

@@ -1,0 +1,67 @@
+================================================================================
+ARIP PHASE 14 AMBIGUITY DETECTION MODEL TRAINING & EVALUATION REPORT
+================================================================================
+Generated Date: 2026-10-03
+Architecture: TF-IDF (Unigram + Bigram, max_features=5000) + Logistic Regression (C=2.0)
+
+1. DATASET INTEGRATION & CLEANING SUMMARY
+--------------------------------------------------------------------------------
+- Master Deduplicated Records: 6058
+- Conflicting Text-Label Pairs: 0 (100% label consistency)
+- Master Class Distribution:
+    Clear:     3017
+    Ambiguous: 3041
+
+2. STRATIFIED 80/10/10 SPLIT DISTRIBUTION
+--------------------------------------------------------------------------------
+- Training Split:   4846 samples
+- Validation Split: 606 samples
+- Testing Split:    606 samples
+- Leakage Check: 0 overlapping sentences across Train, Val, Test sets.
+
+3. MODEL PERFORMANCE METRICS
+--------------------------------------------------------------------------------
+[TRAINING SET (4846 samples)]
+- Accuracy:  99.57%
+- Precision: 99.71%
+- Recall:    99.42%
+- F1-Score:  99.57%
+- Confusion Matrix: [[2406, 7], [14, 2419]]
+
+[VALIDATION SET (606 samples)]
+- Accuracy:  98.02%
+- Precision: 97.71%
+- Recall:    98.36%
+- F1-Score:  98.03%
+- Confusion Matrix: [[295, 7], [5, 299]]
+
+[TEST SET (606 samples)]
+- Accuracy:  97.52%
+- Precision: 96.46%
+- Recall:    98.68%
+- F1-Score:  97.56%
+- Confusion Matrix: [[291, 11], [4, 300]]
+
+4. ERROR ANALYSIS SUMMARY (TEST SET)
+--------------------------------------------------------------------------------
+- Total Test Samples: 606
+- False Positives (Ground Truth Clear -> Predicted Ambiguous): 11
+- False Negatives (Ground Truth Ambiguous -> Predicted Clear): 4
+
+5. MANUAL UNSEEN TEST VERIFICATION
+--------------------------------------------------------------------------------
+Requirement: "The system shall process user authentication within 500ms under maximum peak load."
+  Expected: Clear | Predicted: Clear (60%) | Pass: True
+
+Requirement: "The interface should be user-friendly, elegant, fast, and respond appropriately."
+  Expected: Ambiguous | Predicted: Ambiguous (100%) | Pass: True
+
+Requirement: "The database server shall retain transaction logs for exactly 90 days before archiving."
+  Expected: Clear | Predicted: Clear (98%) | Pass: True
+
+Requirement: "The system shall handle errors gracefully and provide reasonable feedback as needed."
+  Expected: Ambiguous | Predicted: Ambiguous (91%) | Pass: True
+
+================================================================================
+END OF REPORT
+================================================================================
